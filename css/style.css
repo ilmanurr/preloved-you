@@ -199,6 +199,7 @@ body {
     font-size: 1.2rem;
     font-weight: 100;
     line-height: 1.5;
+    text-align: justify;
 }
 /* About style end */
 
@@ -228,11 +229,12 @@ body {
 .home-content .row-produk-terbaru .produk-terbaru {
     text-align: center;
     padding: 2rem;
-    padding-bottom: 4rem;
+    padding-bottom: 1.5rem;
 }
 
 .home-content .row-produk-terbaru .produk-terbaru img {
-    width: 20rem;
+    width: 15rem;
+    height: 15rem;
     border: 80%;
 }
 
@@ -271,9 +273,10 @@ body {
 
 .review .row-review .review-card {
     text-align: center;
-    padding: 1.5rem;
-    padding-bottom: 4rem;
-    border-radius: 85%;
+    margin: 1rem;
+    padding: 2rem;
+    border: 1px solid var(--primary);
+    border-radius: 0.5rem;
 }
 
 .review .row-review .review-card h3 {
@@ -343,8 +346,26 @@ footer .credit {
 .list-produk, .produk-terbaru {
     text-align: center;
     border: 1px solid #d9cece;
-    padding: 5rem;
+    border-radius: 0.5rem;
+    padding: 2rem;
     margin: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+#row-all-product .list-produk img, #row-produk-terbaru .produk-terbaru img {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 0.2rem;
+}
+
+#row-all-product .list-produk .produk-tittle, #row-produk-terbaru .produk-terbaru .produk-tittle {
+    font-size: 1.2rem;
+    margin: 1rem auto 0.5rem;
+}
+
+#row-all-product .list-produk .produk-price, #row-produk-terbaru .produk-terbaru .produk-price {
+    font-size: 1rem;
+    margin: 1rem auto 0.5rem;
 }
 
 /* Product style end */
@@ -384,20 +405,32 @@ footer .credit {
 .carts .row .list-carts {
     text-align: center;
     border: 1px solid #d9cece;
-    padding: 5rem;
+    border-radius: 0.5rem;
+    padding: 2rem;
     margin: 1rem;
 }
 
-.carts .list-produk-img {
-    padding: 1rem 0;
+.carts .row .list-carts img {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 0.2rem;
 }
 
-.carts .list-produk-img img {
-    height: 15rem;
-    width: 25rem;
+.carts .row .list-carts h3 {
+    font-size: 1.2rem;
+    margin: 1rem auto 0.5rem;
 }
 
+.carts .row .list-carts .produk-price {
+    font-size: 1rem;
+    margin: 0.8rem auto 0.5rem;
+}
 
+.carts .row .list-carts .produk-status {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
 /* Pesanan style end */
 
 /* Contact style start */
