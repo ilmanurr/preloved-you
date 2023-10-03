@@ -20,23 +20,23 @@ Tahun 2023
  
 1.	Pendahuluan
 1.1	Tujuan Penulisan Dokumen
-SRS atau Software Requirement Spesification adalah dokumen yang mana berisi tentang informasi lengkap mengenai sebuah perancangan perangkat lunak, sehingga penulisan dokumen ini ditujukan untuk mempermudah para pengembang aplikasi dalam membuat aplikasi. Selain itu, adanya SRS juga mematangkan perencanaan pembuatan sebuah perangkat lunak yang mana bertujuan agar proses pembuatan perangkat lunak dapat terlaksana secara sistematis dan maksimal.
+<p>SRS atau Software Requirement Spesification adalah dokumen yang mana berisi tentang informasi lengkap mengenai sebuah perancangan perangkat lunak, sehingga penulisan dokumen ini ditujukan untuk mempermudah para pengembang aplikasi dalam membuat aplikasi. Selain itu, adanya SRS juga mematangkan perencanaan pembuatan sebuah perangkat lunak yang mana bertujuan agar proses pembuatan perangkat lunak dapat terlaksana secara sistematis dan maksimal.</p><br>
 
 1.2	Konversi Dokumen
 Aplikasi: penerapan dari rancang sistem untuk mengolah data yang menggunakan aturan atau ketentuan bahasa pemrograman tertentu. 
--	Customer: pihak atau orang yang membeli suatu barang secara konstan atau tetap
--	Penjual: pengurus tata kelola administrasi 
+<li>Customer: pihak atau orang yang membeli suatu barang secara konstan atau tetap</li>
+<li>Penjual: pengurus tata kelola administrasi </li><br>
 
 1.3	Audiens yang Dituju dan Pembaca yang Disarankan
-Dokumen SKPL ini berisi tentang semua kebutuhan perangkat lunak beserta sistem kerjanya sehingga dokumen ini dibutuhkan bagi pengembang website sebagai panduan dalam mengembangkan website; penjual; calon customer;
+<li>Dokumen SKPL ini berisi tentang semua kebutuhan perangkat lunak beserta sistem kerjanya sehingga dokumen ini dibutuhkan bagi pengembang website sebagai panduan dalam mengembangkan website; penjual; calon customer;</li><br>
 
 1.4	Lingkup Produk
-Website preloved.you adalah sistem informasi berbasis website yang menjadi wadah untuk kegiatan penjualan pakaian bekas yang tidak hanya dibagikan melalui foto kemudian memesannya secara langsung kepada penjual melainkan dapat dilakukan jual beli secara tidak langsung melalui website Preloved.you pada saat itu juga. Dengan adanya sistem ini pengguna akan lebih mudah melakukan transaksi jual beli. Proses jual beli dapat dilakukan di manapun dan kapanpun sehingga waktu dan tempat yang dibutuhkan lebih efisien. Website Preloved.you ini dapat melakukan hal-hal berikut ini :
-a.	Registrasi pengguna yang memungkinkan pengguna untuk mendaftar dan membuat akun pengguna
-b.	Memilih pakaian preloved yang diminati pengguna
-c.	Memproses pesanan yang dilakukan pengguna
-d.	Menyimpan data-data transaksi
-Dengan adanya website ini diharapkan dapat memudahkan para customer dari Preloved.you dalam melakukan pemesanan dan transaksi produk yang dijual oleh Preloved.you.
+<p>Website preloved.you adalah sistem informasi berbasis website yang menjadi wadah untuk kegiatan penjualan pakaian bekas yang tidak hanya dibagikan melalui foto kemudian memesannya secara langsung kepada penjual melainkan dapat dilakukan jual beli secara tidak langsung melalui website Preloved.you pada saat itu juga. Dengan adanya sistem ini pengguna akan lebih mudah melakukan transaksi jual beli. Proses jual beli dapat dilakukan di manapun dan kapanpun sehingga waktu dan tempat yang dibutuhkan lebih efisien. Website Preloved.you ini dapat melakukan hal-hal berikut ini :</p>
+<li>a.	Registrasi pengguna yang memungkinkan pengguna untuk mendaftar dan membuat akun pengguna</li>
+<li>b.	Memilih pakaian preloved yang diminati pengguna</li>
+<li>c.	Memproses pesanan yang dilakukan pengguna</li>
+<li>d.	Menyimpan data-data transaksi</li>
+<p>Dengan adanya website ini diharapkan dapat memudahkan para customer dari Preloved.you dalam melakukan pemesanan dan transaksi produk yang dijual oleh Preloved.you.<p>
 
 1.5	Referensi
 
