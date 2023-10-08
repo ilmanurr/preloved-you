@@ -87,11 +87,14 @@ Dengan adanya website ini diharapkan dapat memudahkan para customer dari Prelove
 <li>Flowchart pembelian customer</li><br>
 <img src="https://github.com/ilmanurr/preloved-you/blob/main/image/flowchart%20preloved%20you.png?raw=true">
 <li>Flowchart konfirmasi penjual</li>
+<img src="https://github.com/ilmanurr/preloved-you/blob/main/image/flowchart%20preloved%20you%202.png?raw=true">
 </ol>
 <li>USE CASE</li>
 <ol type="a">
 <li>Use Case Penjual</li><br>
+<img src="https://github.com/ilmanurr/preloved-you/blob/main/image/use%20case%20preloved%20ou.jpg?raw=true">
 <li>Use Case Pembeli</li>
+<img src="https://github.com/ilmanurr/preloved-you/blob/main/image/use%20case%20preloved%20you%202.jpg?raw=true">
 </ol>
  
 <br>LAMPIRAN C: Daftar Yang Akan Ditentukan<br>
