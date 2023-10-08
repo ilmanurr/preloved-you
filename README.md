@@ -85,6 +85,7 @@ Dengan adanya website ini diharapkan dapat memudahkan para customer dari Prelove
 <br><li>FLOWCHART</li>
 <ol type="a">
 <li>Flowchart pembelian customer</li><br>
+ ![alt text](https://github.com/ilmanurr/preloved-you/blob/main/image/flowchart%20preloved%20you.png?raw=true)
 <li>Flowchart konfirmasi penjual</li>
 </ol>
 <li>USE CASE</li>
