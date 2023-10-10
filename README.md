@@ -97,7 +97,7 @@ Dengan adanya website ini diharapkan dapat memudahkan para customer dari Prelove
 <img src="https://github.com/ilmanurr/preloved-you/blob/main/image/use%20case%20preloved%20you%202.jpg?raw=true">
 </ol>
 
-<br>2.7 Kebutuhan Fungsional Produk</br>
+<br>2.7 Kebutuhan Fungsional Sistem</br>
  <br>1. Manajemen Akun Pengguna</br>
   <ol>
    <li>Registrasi dan login pengguna/pembeli</li>
@@ -129,6 +129,25 @@ Dengan adanya website ini diharapkan dapat memudahkan para customer dari Prelove
    <li>Penanganan informasi produk</li>
    <li>Laporan penjualan dan analisis performa penjualan</li>
   </ol>
+
+<br>2.8 Kebutuhan Nonfungsional Sistem
+<p>Kebutuhan nonfungsional sistem dibagi menjadi dua, yaitu kebutuhan perangkat lunak dan kebutuhan perangkat keras.</p>
+<table border="2" cellspacing="0" cellpadding="10">
+ <tr>
+  <td><bold>Kebutuhan perangkat lunak</td>
+  <td>PC/laptop Windows 10</td>
+  <td>HTML</td>
+  <td>CSS</td>
+  <td>Google Chrome</td>
+ </tr>
+ <tr>
+  <td><bold>Kebutuhan perangkat keras</td>
+  <td>PC/Laptop</td>
+  <td>Monitor</td>
+  <td>Keyboard</td>
+  <td>Smartphone</td>
+ </tr>
+</table>
   
 <br>LAMPIRAN C: Daftar Yang Akan Ditentukan<br>
 
