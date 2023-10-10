@@ -96,6 +96,39 @@ Dengan adanya website ini diharapkan dapat memudahkan para customer dari Prelove
 <li>Use Case Pembeli</li>
 <img src="https://github.com/ilmanurr/preloved-you/blob/main/image/use%20case%20preloved%20you%202.jpg?raw=true">
 </ol>
- 
+
+<br>Kebutuhan Fungsional Produk</br>
+ <br>1. Manajemen Akun Pengguna</br>
+  <ol>
+   <li>Registrasi dan login pengguna/pembeli</li>
+   <li>Pengaturan kata sandi dan informasi akun</li>
+  </ol>
+ <br>2. Penyajian Produk</br>
+  <ol>
+   <li>Tampilan produk dengan gambar, deskripsi, harga, dan stok barang terkait</li>
+   <li>Ketersediaan produk</li>
+  </ol>
+ <br>3. Keranjang Belanja 
+  <ol>
+   <li>Fungsi untuk menambah, menghapus, dan mengubah produk dalam keranjang belanja</li>
+   <li>Perhitungan total belanjaan</li>
+  </ol>
+ <br>4. Proses Pemesanan
+  <ol>
+   <li>Proses checkout yang intuitif dan mudah</li>
+   <li>Pilihan metode pembayaran dan pengiriman</li>
+   <li>Konfirmasi pemesanan dan pengiriman</li>
+  </ol>
+ <br>5. Manajemen Pesanan
+  <ol>
+   <li>Riwayat pesanan pengguna dan detail pesanan</li>
+   <li>Kemampuan untuk membatalkan pesanan</li>
+  </ol>
+ <br>6. Pengelolaan Penjual
+  <ol>
+   <li>Penanganan informasi produk</li>
+   <li>Laporan penjualan dan analisis performa penjualan</li>
+  </ol>
+  
 <br>LAMPIRAN C: Daftar Yang Akan Ditentukan<br>
 
