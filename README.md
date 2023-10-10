@@ -85,13 +85,82 @@ Dengan adanya website ini diharapkan dapat memudahkan para customer dari Prelove
 <br><li>FLOWCHART</li>
 <ol type="a">
 <li>Flowchart pembelian customer</li><br>
+<img src="https://github.com/ilmanurr/preloved-you/blob/main/image/flowchart%20preloved%20you.png?raw=true">
 <li>Flowchart konfirmasi penjual</li>
+<img src="https://github.com/ilmanurr/preloved-you/blob/main/image/flowchart%20preloved%20you%202.png?raw=true">
 </ol>
 <li>USE CASE</li>
 <ol type="a">
 <li>Use Case Penjual</li><br>
+<img src="https://github.com/ilmanurr/preloved-you/blob/main/image/use%20case%20preloved%20ou.jpg?raw=true">
 <li>Use Case Pembeli</li>
+<img src="https://github.com/ilmanurr/preloved-you/blob/main/image/use%20case%20preloved%20you%202.jpg?raw=true">
 </ol>
- 
+
+<br>2.7 Kebutuhan Fungsional Sistem</br>
+ <br>1. Manajemen Akun Pengguna</br>
+  <ol>
+   <li>Registrasi dan login pengguna/pembeli</li>
+   <li>Pengaturan kata sandi dan informasi akun</li>
+  </ol>
+ <br>2. Penyajian Produk</br>
+  <ol>
+   <li>Tampilan produk dengan gambar, deskripsi, harga, dan stok barang terkait</li>
+   <li>Ketersediaan produk</li>
+  </ol>
+ <br>3. Keranjang Belanja 
+  <ol>
+   <li>Fungsi untuk menambah, menghapus, dan mengubah produk dalam keranjang belanja</li>
+   <li>Perhitungan total belanjaan</li>
+  </ol>
+ <br>4. Proses Pemesanan
+  <ol>
+   <li>Proses checkout yang intuitif dan mudah</li>
+   <li>Pilihan metode pembayaran dan pengiriman</li>
+   <li>Konfirmasi pemesanan dan pengiriman</li>
+  </ol>
+ <br>5. Manajemen Pesanan
+  <ol>
+   <li>Riwayat pesanan pengguna dan detail pesanan</li>
+   <li>Kemampuan untuk membatalkan pesanan</li>
+  </ol>
+ <br>6. Pengelolaan Penjual
+  <ol>
+   <li>Penanganan informasi produk</li>
+   <li>Laporan penjualan dan analisis performa penjualan</li>
+  </ol>
+
+<br>2.8 Kebutuhan Nonfungsional Sistem
+<p>Kebutuhan nonfungsional sistem dibagi menjadi dua, yaitu kebutuhan perangkat lunak dan kebutuhan perangkat keras.</p>
+<table border="2" cellspacing="0" cellpadding="10">
+ <thead>
+ <tr>
+  <th>Kebutuhan perangkat lunak</th>
+  <th>Kebutuhan perangkat lunak</th>
+ </tr>
+ </thead>
+ <tbody> 
+ <tr>
+  <td>PC/laptop Windows 10</td>
+  <td>PC/Laptop</td>
+ </tr>
+ <tr>
+  <td>HTML</td>
+  <td>Keyboard</td>
+ </tr>
+ <tr>
+  <td>CSS</td>
+  <td>Smartphone</td>
+ </tr>
+  <tr>
+   <td>Google Chrome</td>
+   <td>Monitor</td>
+  </tr>
+  <tr>
+   <td>Github</td>
+   <td>Mouse</td>
+  </tr>
+</table>
+  
 <br>LAMPIRAN C: Daftar Yang Akan Ditentukan<br>
 
