@@ -97,7 +97,7 @@ Dengan adanya website ini diharapkan dapat memudahkan para customer dari Prelove
 <img src="https://github.com/ilmanurr/preloved-you/blob/main/image/use%20case%20preloved%20you%202.jpg?raw=true">
 </ol>
 
-<br>Kebutuhan Fungsional Produk</br>
+<br>2.7 Kebutuhan Fungsional Produk</br>
  <br>1. Manajemen Akun Pengguna</br>
   <ol>
    <li>Registrasi dan login pengguna/pembeli</li>
