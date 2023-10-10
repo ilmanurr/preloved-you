@@ -133,20 +133,33 @@ Dengan adanya website ini diharapkan dapat memudahkan para customer dari Prelove
 <br>2.8 Kebutuhan Nonfungsional Sistem
 <p>Kebutuhan nonfungsional sistem dibagi menjadi dua, yaitu kebutuhan perangkat lunak dan kebutuhan perangkat keras.</p>
 <table border="2" cellspacing="0" cellpadding="10">
+ <thead>
  <tr>
-  <td><bold>Kebutuhan perangkat lunak</td>
+  <th>Kebutuhan perangkat lunak</th>
+  <th>Kebutuhan perangkat lunak</th>
+ </tr>
+ </thead>
+ <tbody> 
+ <tr>
   <td>PC/laptop Windows 10</td>
-  <td>HTML</td>
-  <td>CSS</td>
-  <td>Google Chrome</td>
+  <td>PC/Laptop</td>
  </tr>
  <tr>
-  <td><bold>Kebutuhan perangkat keras</td>
-  <td>PC/Laptop</td>
-  <td>Monitor</td>
+  <td>HTML</td>
   <td>Keyboard</td>
+ </tr>
+ <tr>
+  <td>CSS</td>
   <td>Smartphone</td>
  </tr>
+  <tr>
+   <td>Google Chrome</td>
+   <td>Monitor</td>
+  </tr>
+  <tr>
+   <td>Github</td>
+   <td>Mouse</td>
+  </tr>
 </table>
   
 <br>LAMPIRAN C: Daftar Yang Akan Ditentukan<br>
