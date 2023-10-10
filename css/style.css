@@ -224,17 +224,19 @@ body {
     flex-wrap: wrap;
     margin-top: 2rem;
     justify-content: center;
+    margin-bottom: 1.3rem;
 }
 
 .home-content .row-produk-terbaru .produk-terbaru {
     text-align: center;
-    padding: 2rem;
-    padding-bottom: 1.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    padding-bottom: 1rem;
 }
 
 .home-content .row-produk-terbaru .produk-terbaru img {
-    width: 10rem;
-    height: 12rem;
+    width: 8rem;
+    height: 10rem;
     border: 80%;
 }
 
@@ -244,6 +246,12 @@ body {
 
 .home-content .row-produk-terbaru .produk-terbaru .produk-price {
     margin: 1rem auto 0.5rem;
+}
+
+#pterbaru-content a {
+    margin-left: 53rem;
+    padding: 1rem 0.5rem;
+    font-size: 1.1rem;
 }
 /* Produk terbaru beranda style end */
 
@@ -255,7 +263,7 @@ body {
 .review h2 {
     text-align: center;
     font-size: 2.5rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     margin-bottom: 3rem;
 }
 
@@ -274,7 +282,7 @@ body {
 .review .row-review .review-card {
     text-align: center;
     margin: 1rem;
-    padding: 2rem;
+    padding: 1rem;
     border: 1px solid var(--primary);
     border-radius: 0.5rem;
 }
@@ -329,7 +337,7 @@ footer .credit {
     text-align: center;
     font-size: 2.5rem;
     margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 #all-products h2 span, #new-products h2 span {
@@ -349,12 +357,12 @@ footer .credit {
     border-radius: 0.5rem;
     padding: 2rem;
     margin: 1rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
 }
 
 #row-all-product .list-produk img, #row-produk-terbaru .produk-terbaru img {
-    width: 16rem;
-    height: 16rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 0.2rem;
 }
 
@@ -406,13 +414,13 @@ footer .credit {
     text-align: center;
     border: 1px solid #d9cece;
     border-radius: 0.5rem;
-    padding: 2rem;
-    margin: 1rem;
+    padding: 1rem;
+    margin: 1.5rem;
 }
 
 .carts .row .list-carts img {
-    width: 16rem;
-    height: 16rem;
+    width: 14rem;
+    height: 14rem;
     border-radius: 0.2rem;
 }
 
@@ -601,8 +609,28 @@ footer .credit {
 
 .login p {
     margin-top: 2rem;
-    margin-bottom: 0.2rem;
+    margin-bottom: 5rem;
     justify-content: center;
     text-align: center;
 }
 /* Login style end */
+
+/* Sign Up style start */
+.input-jk-group {
+    margin: 1rem 2rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.input-jk-group h4 {
+    font-style: normal;
+    text-align: left;
+    margin-left: 22.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.input-jk-group label, .input-jk-group input {
+    justify-content: center;
+    padding: 0 1rem 0 0.3rem;
+}
+/* Sign Up style end */
