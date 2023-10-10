@@ -94,11 +94,17 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url('../image/hero2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     position: relative;
+    z-index: 1;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 .hero::after {
@@ -112,10 +118,11 @@ body {
 }
 
 .hero .hero-content {
-    position: absolute;
+    position: flex;
     padding: 1.4rem 7%;
     max-width: 60rem;
     padding-top: 20rem;
+    z-index: 1;
 }
 
 .hero .hero-content h1 {
@@ -563,18 +570,18 @@ footer .credit {
 /* Contact style end */
 
 /* Login style start */
-.login {
+.login, .sign-up {
     padding: 7rem 7% 1.4rem;
 }
 
-.login h2 {
+.login h2, .sign-up h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-top: 1rem;
     margin-bottom: 1.5rem;
 }
 
-.login .input-group {
+.login .input-group, .sign-up .input-group {
     display: flex;
     align-items: center;
     margin-top: 1rem;
@@ -586,15 +593,15 @@ footer .credit {
     margin-right: 35%;
 }
 
-.login .input-group input {
-    width: 100%; /* Mengubah nilai lebar input menjadi 100% */
-    padding: 1rem; /* Mengubah nilai padding */
+.login .input-group input, .sign-up .input-group input {
+    width: 100%; 
+    padding: 1rem; 
     font-size: 1rem;
     background: none;
     color: #000000;
 }
 
-.login .submit-button {
+.login .submit-button, .sign-up .submit-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -608,7 +615,7 @@ footer .credit {
 }
 
 .login p {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     margin-bottom: 5rem;
     justify-content: center;
     text-align: center;
@@ -632,5 +639,12 @@ footer .credit {
 .input-jk-group label, .input-jk-group input {
     justify-content: center;
     padding: 0 1rem 0 0.3rem;
+}
+
+.sign-up p {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    text-align: center;
 }
 /* Sign Up style end */
