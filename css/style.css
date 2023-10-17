@@ -28,7 +28,7 @@ body {
     align-items: center;
     padding: 1rem;
     background-color: #ffffff;
-    border-bottom: 1px solid var(--primary);
+    border-bottom: 0.5px solid #aba1a1;
     position: fixed;
     top: 0;
     left: 0;
@@ -160,6 +160,10 @@ body {
     box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
 }
 
+.hero .hero-content .cta:hover {
+    transform: scale(1.1);
+}
+
 /* Hero style end */
 
 /* About style start */
@@ -234,6 +238,10 @@ body {
     margin-bottom: 1.3rem;
 }
 
+.home-content .row-produk-terbaru :hover {
+    transform: scale(1.1);
+}
+
 .home-content .row-produk-terbaru .produk-terbaru {
     text-align: center;
     margin: 1rem;
@@ -284,6 +292,10 @@ body {
     flex-wrap: wrap;
     margin-top: 3rem;
     justify-content: center;
+}
+
+.review .row-review :hover {
+    transform: scale(1.1);
 }
 
 .review .row-review .review-card {
@@ -358,12 +370,25 @@ footer .credit {
     justify-content: center;
 }
 
-.list-produk, .produk-terbaru {
+.product .row :hover {
+    transform: scale(1.1);
+}
+
+.produk-terbaru {
     text-align: center;
     border: 1px solid #d9cece;
     border-radius: 0.5rem;
     padding: 2rem;
-    margin: 1rem;
+    margin: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+.list-produk {
+    text-align: center;
+    border: 1px solid #d9cece;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin: 1.5rem;
     padding-bottom: 1rem;
 }
 
@@ -490,6 +515,10 @@ footer .credit {
     border-radius: 0.5rem;
     box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
     margin: 1rem;
+}
+
+.contact .row-contact :hover {
+    transform: scale(1.1);
 }
 
 .contact .row-alamat-saran {
