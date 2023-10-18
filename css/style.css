@@ -19,6 +19,7 @@ body {
     font-family: 'Arial', sans-serif, serif;
     background-color: var(--bg);
     color: #000000;
+    overflow-x: hidden;
 }
 
 /* Navbar style start */
@@ -87,7 +88,101 @@ body {
 .navbar .login-navbar a {
     color: #000000;
 }
+
+.navbar .navbar-extra {
+    margin: 0 1rem;
+}
+
+.navbar .navbar-extra a {
+    color: #000000;
+    margin: 0 0.5rem;
+}
+
+.navbar .navbar-extra a:hover {
+    color: var(--primary);
+}
+
+#hamburger-menu {
+    display: none;
+}
+
 /* Navbar style end */
+
+/* Navbar search form */
+.navbar .search-form {
+    position: absolute;
+    top: 100%;
+    right: 5%;
+    background-color: #ffffff;
+    width: 30rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.3s;
+}
+
+.navbar .search-form.active {
+    transform: scaleY(1);
+}
+
+.navbar .search-form input {
+    height: 100%;
+    width: 100%;
+    font-size: 1rem;
+    color: var(--bg);
+    padding: 1rem;
+}
+
+.navbar .search-form label {
+    cursor: pointer;
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    color: var(--bg);
+}
+
+/* login form start */
+.navbar .login-form {
+    position: absolute;
+    top: 100%;
+    right: 2%;
+    background-color: #ffffff;
+    width: 16rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: scaleY(0); 
+    transform-origin: top;
+    transition: 0.3s;
+    border: 1px solid #ccc;
+}
+
+.navbar:hover .login-form.active {
+    transform: scaleY(1); 
+}
+
+.navbar .login-form h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem; 
+}
+
+.navbar .login-form .cta {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    font-size: 1.1rem;
+    color: #ffffff; 
+    background-color: var(--primary);
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.navbar .login-form .cta:hover {
+    background-color: #876541;
+}
 
 /* Hero style start */
 .hero {
@@ -264,7 +359,7 @@ body {
 }
 
 #pterbaru-content a {
-    margin-left: 53rem;
+    margin-left: 7rem;
     padding: 1rem 0.5rem;
     font-size: 1.1rem;
 }
@@ -344,6 +439,7 @@ footer .sosmed a:hover {
 footer .credit {
     font-size: 1rem;
     margin-top: 0.5rem;
+    font-weight: 300;
 }
 /* Footer style end */
 
@@ -519,6 +615,7 @@ footer .credit {
 
 .contact .row-contact :hover {
     transform: scale(1.1);
+    color: #ffffff;
 }
 
 .contact .row-alamat-saran {
@@ -594,6 +691,11 @@ footer .credit {
     background-color: var(--primary);
     cursor: pointer;
     border-radius: 0.5rem;
+}
+
+.contact .row-alamat-saran .row-kritik-saran .submit-button:hover {
+    transform: scale(1.1);
+    color: #ffffff;
 }
 
 /* Contact style end */
@@ -677,3 +779,123 @@ footer .credit {
     text-align: center;
 }
 /* Sign Up style end */
+
+/* laptop */
+@media (max-width: 1366px) {
+    html {
+        font-size: 100%;
+    }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 70%;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    #hamburger-menu {
+        display: inline-block;
+    }
+
+    .navbar .isinavbar {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: var(--bg);
+        border: var(--primary);
+        width: 15rem;
+        height: 100vh;
+        transition: 0.3s;
+        padding: 1rem;
+    }
+
+    .navbar .isinavbar.active {
+        right: 0;
+    }
+
+    .navbar .isinavbar a {
+        color: var(--bg);
+        display: block;
+        margin: 0.7rem;
+        padding: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .navbar .isinavbar a::after {
+        transform-origin: 0 0;
+    }
+
+    .navbar .isinavbar a:hover::after {
+        transform: scaleX(0.7);
+    }
+
+    .navbar .search-form {
+        width: 90%;
+        right: 2rem;
+    }
+
+    #about-content .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center; /* Tambahkan baris ini */
+    }
+    
+    #about-content .row .about-img {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Tambahkan baris ini */
+    }
+    
+    #about-content .row .about-img img {
+        height: 22rem;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    #about-content .row .kenapa-content {
+        margin-top: 2rem;
+        padding: 0;
+        text-align: center;
+        max-width: 85%;
+    }
+    
+    #about-content .row .kenapa-content h3 {
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+    
+    #about-content .row .kenapa-content p {
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+
+    .contact .row-alamat-saran {
+        flex-wrap: wrap;
+    }
+
+    .contact .row-alamat-saran .row-alamat map {
+        height: 30rem;
+    }
+
+    .contact .row-alamat-saran .row-kritik-saran {
+        padding-top: 0;
+        margin-top: 2rem;
+    }
+
+    /* mobile phone */
+    @media (max-width: 450px) {
+        html {
+            font-size: 55%;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+    }
+
+}
