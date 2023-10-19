@@ -5,42 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Preloved.you</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_login_signup.css">
 </head>
 
 <body>
-    <body>
-        <!-- Navbar Section start -->
-        <nav class="navbar">
-            <a href="#" class="logo-navbar">Preloved<span>.you</span></a>
-            <div class="isinavbar">
-                <ul class="ul-navbar">
-                    <li class="list-navbar">
-                        <a href="index.html">Beranda</a>
-                    </li>
-                    <li class="list-navbar">
-                        <a href="produk-kami.html">Produk Kami</a>
-                    </li>
-                    <li class="list-navbar">
-                        <a href="keranjang.html">Pesananmu</a>
-                    </li>
-                    <li class="list-navbar">
-                        <a href="kontak-kami.html">Kontak Kami</a>
-                    </li>
-                </ul>
-            </div>
-    
-            <!-- Login navbar start -->
-            <div class="login-navbar">
-                <a href="login.html">Log In</a>
-            </div>
-            <!-- Login navbar end -->
-        </nav>
-        <!-- Navbar Section end -->
-
     <!-- Login Section start -->
     <section id="sign-up" class="sign-up">
-        <h2>Sign Up</h2>
+        <h2>Preloved.you</h2>
+        <div class="group">
+        <h3>Daftar</h3>
         <div class="input-group">
             <input type="text" placeholder="Username">
         </div>
@@ -56,29 +29,25 @@
         <div class="input-group">
             <input type="password" placeholder="Password">
         </div>
-        <div class="input-jk-group" id="input-jk">
-            <h4>Jenis Kelamin</h4>
-            <input type="radio" name="jenis-kelamin" id="jk-lakilaki">
-            <label for="cowo">Laki-laki</label>
-            <input type="radio" name="jenis-kelamin" id="jk-perempuan">
-            <label for="cewe">Perempuan</label>
-            <input type="radio" name="jenis-kelamin" id="jk-others">
-            <label for="lainnya">Lainnya</label>
+        <div class="input-group-jk">
+        <label for="jenis_kelamin">Jenis Kelamin</label>
+            <select name="jenis_kelamin" id="jenis_kelamin">
+                <option value="" disabled selected>Pilih</option>
+                <option value="laki-laki">Laki-laki</option>
+                <option value="perempuan">Perempuan</option>
+                <option value="lainnya">Lainnya...</option>
+            </select>
         </div>
         <button type="submit" class="submit-button">Sign Up</button>
-
         <p>Sudah punya akun? <a href="login.html">Log In</a></p>
+    </div>
     </section>
     <!-- Login Section end -->
 
     <!-- Footer start -->
     <footer>
-        <div class="sosmed">
-            <a href="https://instagram.com/">Instagram</a>
+        <div class="footer-signup">
             <a href="index.html">Beranda</a>
-            <a href="kontak-kami.html">Kontak Kami</a>
-        </div>
-        <div class="credit">
             <p>Created by Preloved.you's team | &copy 2023</p>
         </div>
     </footer>
