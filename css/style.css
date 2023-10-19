@@ -16,7 +16,7 @@ html {
     text-decoration: none;
 }
 body {
-    font-family: 'Arial', sans-serif, serif;
+    font-family: 'Arial', sans-serif;
     background-color: var(--bg);
     color: #000000;
     overflow-x: hidden;
