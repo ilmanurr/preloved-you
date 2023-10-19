@@ -172,12 +172,13 @@ section {
 .navbar .login-form h3 {
     font-size: 1.5rem;
     text-align: center;
+    margin-top: 0.8rem;
     margin-bottom: 1rem; 
 }
 
 .navbar .login-form .cta {
     display: inline-block;
-    padding: 1rem 1.5rem;
+    padding: 0.8rem 1.5rem;
     font-size: 1.1rem;
     color: #ffffff; 
     background-color: var(--primary);
@@ -187,6 +188,20 @@ section {
 
 .navbar .login-form .cta:hover {
     background-color: #876541;
+}
+
+.navbar .login-form p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.navbar .login-form a {
+    color: #2B5FA6;
+}
+
+.navbar .login-form a:hover {
+    color: var(--primary);
 }
 
 /* Hero style start */
@@ -584,7 +599,7 @@ footer .credit {
     font-size: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
-    font-weight: 100;
+    font-weight: 500;
     line-height: 1.5;
     justify-content: center;
 }
@@ -634,6 +649,7 @@ footer .credit {
     text-align: left;
     font-size: 1rem;
     padding-left: 0.5rem;
+    font-weight: 500;
 }
 
 .contact .row-alamat-saran .row-alamat .telp a {
