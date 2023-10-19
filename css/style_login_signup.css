@@ -110,14 +110,13 @@ body {
     color: #ffffff;
 }
 
-.login .create-akun {
+.login .create-akun, .sign-up p {
     margin-bottom: 0.5rem;
+    text-align: center;
 }
 
 .login .create-akun p, .sign-up .group p {
     margin-top: 1.5rem;
-    justify-content: center;
-    text-align: center;
 }
 
 .login .create-akun a, .sign-up .group a {
@@ -164,23 +163,64 @@ footer .isi-footer {
 
 @media (max-width: 768px) {
     html {
-        font-size: 80%;
-    }
-    .login .group, .sign-up .group {
-        width: 60%;
+        font-size: 85%;
     }
 
+    section {
+        margin-top: 7rem;
+        margin-bottom: 3rem;
+    }
+
+    .login .group, .sign-up .group {
+        width: 70%;
+    }
+
+    .login .group .input-group, .sign-up .group .input-group-jk,  .sign-up .input-group {
+        height: 4rem;
+    }
+    
     .login .input-group input, .sign-up .input-group input {
-        width: 60%;
+        width: 70%;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .sign-up .group .input-group-jk label {
+        padding-left: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .sign-up .group .input-group-jk select {
+        margin-left: 1rem;
+        font-size: 1rem;
     }
 
     footer .isi-footer {
         margin-top: 10rem;
     }
+
+    .isi-footer, .footer-signup {
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
 }
 
 @media (max-width: 450px) {
     html {
-        font-size: 65%;
+        font-size: 70%;
+    }
+
+    section {
+        margin-top: 5rem;
+    }
+
+    .login .group, .sign-up .group {
+        padding: 2rem 3rem;
+        margin-bottom: 5rem;
+    }
+
+    .login .input-group input, .sign-up .input-group input {
+        font-size: 1.3rem;
     }
 }

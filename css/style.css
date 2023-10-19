@@ -23,10 +23,6 @@ body {
     overflow-x: hidden;
 }
 
-section {
-    min-height: 100vh;
-}
-
 /* Navbar style start */
 .navbar {
     display: flex;
@@ -295,7 +291,6 @@ section {
 
 .home-content .row {
     display: flex;
-    
 }
 
 .home-content .row .about-img {
@@ -379,6 +374,11 @@ section {
     margin-left: 7rem;
     padding: 1rem 0.5rem;
     font-size: 1.1rem;
+    color: #4d4646;
+}
+
+#pterbaru-content a:hover {
+    color: var(--primary);
 }
 /* Produk terbaru beranda style end */
 
@@ -729,9 +729,6 @@ footer .credit {
 
     body {
         overflow-x: hidden;
-    }
-
-    section {
         min-height: 70vh auto;
     }
 
@@ -793,7 +790,7 @@ footer .credit {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center; /* Tambahkan baris ini */
+        align-items: center;
     }
     
     #about-content .row .about-img {
