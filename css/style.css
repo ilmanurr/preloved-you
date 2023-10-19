@@ -596,10 +596,10 @@ footer .credit {
 
 .contact p {
     text-align: center;
+    font-family: 'Arial';
     font-size: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
-    font-weight: 500;
     line-height: 1.5;
     justify-content: center;
 }
@@ -646,10 +646,10 @@ footer .credit {
 }
 
 .contact .row-alamat-saran .row-alamat p {
+    font-family: 'Arial';
     text-align: left;
     font-size: 1rem;
     padding-left: 0.5rem;
-    font-weight: 500;
 }
 
 .contact .row-alamat-saran .row-alamat .telp a {
