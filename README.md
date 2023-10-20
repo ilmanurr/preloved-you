@@ -87,14 +87,14 @@ Dengan adanya website ini diharapkan dapat memudahkan para customer dari Prelove
 <li>Flowchart pembelian customer</li><br>
 <img src="image-diagram/flowchart preloved you.png">
 <li>Flowchart konfirmasi penjual</li>
-<img src="https://github.com/ilmanurr/preloved-you/blob/main/image/flowchart%20preloved%20you%202.png?raw=true">
+<img src="image-diagram/flowchat preloved you 2.png">
 </ol>
 <li>USE CASE</li>
 <ol type="a">
 <li>Use Case Penjual</li><br>
-<img src="https://github.com/ilmanurr/preloved-you/blob/main/image/use%20case%20preloved%20ou.jpg?raw=true">
+<img src="image-diagram/use case preloved ou.jpg">
 <li>Use Case Pembeli</li>
-<img src="https://github.com/ilmanurr/preloved-you/blob/main/image/use%20case%20preloved%20you%202.jpg?raw=true">
+<img src="image-diagram/use case preloved you 2.jpg">
 </ol>
 
 <br>2.7 Kebutuhan Fungsional Sistem</br>
