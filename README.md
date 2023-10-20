@@ -87,7 +87,7 @@ Dengan adanya website ini diharapkan dapat memudahkan para customer dari Prelove
 <li>Flowchart pembelian customer</li><br>
 <img src="image-diagram/flowchart preloved you.png">
 <li>Flowchart konfirmasi penjual</li>
-<img src="image-diagram/flowchat preloved you 2.png">
+<img src="image-diagram/flowchart preloved you 2.png">
 </ol>
 <li>USE CASE</li>
 <ol type="a">
