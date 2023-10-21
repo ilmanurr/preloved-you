@@ -6,6 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preloved-You</title>
+    <link rel="icon" href="image/Preloved-logo-png.png">
+
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <!-- css style -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -30,9 +41,25 @@
             </ul>
         </div>
 
-        <!-- Login navbar start -->
-        <div class="login-navbar">
-            <a href="login.html">Log In</a>
+        <!-- icon navbar -->
+        <div class="navbar-extra">
+            <a href="#" id="search-button"><i data-feather="search"></i></a>
+            <a href="#" id="profil-menu"><i data-feather="user"></i></a>
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+
+        <!-- search form start -->
+        <div class="search-form">
+            <input type="text" id="search-box" placeholder="Search here...">
+            <label for="search-box"><i data-feather="search"></i></label>
+        </div>
+        <!-- search form end -->
+
+        <!-- Login form start -->
+        <div class="login-form">
+            <h3 id="login-box">Login sekarang</h3>
+            <a href="login.html" class="cta" for="login-box">Login</a>
+            <p>Belum punya akun? <a href="registration.html">Daftar</a></p>
         </div>
         <!-- Login navbar end -->
     </nav>
@@ -130,5 +157,13 @@
         </div>
     </footer>
     <!-- Footer end -->
+    
+    <!-- feather icons -->
+    <script>
+        feather.replace()
+    </script>
+
+    <!-- my js script -->
+    <script src="js/script.js"></script>
 </body>
 </html>
