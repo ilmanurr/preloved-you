@@ -536,7 +536,6 @@ footer .credit {
     font-size: 1rem;
     max-width: 30rem;
     margin: auto;
-    font-weight: 100;
     line-height: 1.5;
 }
 
@@ -596,7 +595,6 @@ footer .credit {
 
 .contact p {
     text-align: center;
-    font-family: 'Poppins';
     font-size: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
