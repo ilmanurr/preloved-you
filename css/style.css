@@ -61,11 +61,11 @@ body {
     color: #000000;
 }
 
-.navbar .list-navbar a:hover, .navbar .login-navbar a:hover {
+.navbar .list-navbar a:hover {
     color: var(--primary);
 }
 
-.navbar .list-navbar a::after, .navbar .login-navbar a::after {
+.navbar .list-navbar a::after {
     content: '';
     display: block;
     padding-bottom: 0.5rem;
@@ -74,20 +74,8 @@ body {
     transition: 0.2s linear;
 }
 
-.navbar .list-navbar a:hover::after, .navbar .login-navbar a:hover::after {
+.navbar .list-navbar a:hover::after {
     transform: scaleX(0.5);
-}
-
-.navbar .login-navbar {
-    margin: 0 1rem;
-    display: inline-block;
-    font-size: 1rem;
-    justify-content: right;
-    margin-top: 0.5rem;
-}
-
-.navbar .login-navbar a {
-    color: #000000;
 }
 
 .navbar .navbar-extra {
