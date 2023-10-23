@@ -238,18 +238,16 @@ body {
 }
 
 .hero .hero-content p {
-    font-family: 'Arial';
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
-    font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.4;
     color: #887474;
 }
 
 .hero .hero-content .cta {
     margin-top: 0.8rem;
     display: inline-block;
-    padding: 1rem 1rem;
+    padding: 1rem;
     font-size: 1.1rem;
     color: #000000;
     background-color: var(--primary);
@@ -260,7 +258,6 @@ body {
     color: var(--bg);
     transform: scale(1.1);
 }
-
 /* Hero style end */
 
 /* About style start */
@@ -303,7 +300,6 @@ body {
 
 .home-content .row .kenapa-content p {
     margin-bottom: 0.8rem;
-    font-family: 'Arial';
     font-size: 1.2rem;
     line-height: 1.5;
     text-align: justify;
@@ -351,10 +347,7 @@ body {
     border: 80%;
 }
 
-.home-content .row-produk-terbaru .produk-terbaru .produk-tittle {
-    margin: 1rem auto 0.5rem;
-}
-
+.home-content .row-produk-terbaru .produk-terbaru .produk-tittle,
 .home-content .row-produk-terbaru .produk-terbaru .produk-price {
     margin: 1rem auto 0.5rem;
 }
