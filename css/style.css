@@ -149,7 +149,7 @@ body {
     border: 1px solid #ccc;
 }
 
-.navbar:hover .login-form.active {
+.navbar .login-form.active {
     transform: scaleY(1); 
 }
 
@@ -214,7 +214,8 @@ body {
     width: 100%;
     height: 10%;
     bottom: 0;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 5%, rgba(255, 255, 255, 0) 40%);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1)
+                 5%, rgba(255, 255, 255, 0) 40%);
 }
 
 .hero .hero-content {
