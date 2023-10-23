@@ -160,7 +160,16 @@ Dengan adanya website ini diharapkan dapat memudahkan para customer dari Prelove
    <td>Github</td>
    <td>Mouse</td>
   </tr>
-</table>
+</table><br>
+
+<br>3. Source Code<br>
+3.1 Source Code HTML<br>
+<ol type="a">
+ <li>Index (Beranda)</li>
+ 
+
+
+
   
 <br>LAMPIRAN C: Daftar Yang Akan Ditentukan<br>
 
