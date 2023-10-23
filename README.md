@@ -192,13 +192,13 @@ Dengan adanya website ini diharapkan dapat memudahkan para customer dari Prelove
 <p>Section yang kedua adalah section dengan class bernama ‘product’ dan memiliki id ‘all-products’ yang berisi konten tentang semua produk Preloved.you. Dalam section ini terdapat class dengan nama ‘row’ dengan id ‘row-all-product’ yang digunakan untuk mengelompokkan elemen-elemen yang menampilkan produk-produk dari Preloved.you dalam satu baris yang sama. Setiap produk terbaru ditempatkan dalam ‘div class=”list-produk” yang berisi gambar produk, nama produk, dan harga produk.</p><br>
  
 <br><li>Keranjang (Pesananmu)</li>
-<img src="gambar source code/html/keranjang1 section.png">
+<br><img src="gambar source code/html/keranjang1 section.png">
 <p>Pada halaman keranjang (pesananmu), tag html, tag head, tag navbar, dan footer memiliki definisi yang sama dengan yang ada dalam halaman index. Selanjutnya, kami menggunakan tag section untuk membagi halaman website menjadi beberapa bagian. Tag section dalam halaman keranjang (pesananmu) dengan class bernama ‘cartst’ dan memiliki id ‘carts’ yang berisi konten tentang pesana pelanggan. Dalam section ini terdapat class dengan nama ‘row’ yang digunakan untuk mengelompokkan elemen-elemen yang menampilkan produk-produk Preloved.you yang dipesan pelanggan dalam satu baris yang sama. Setiap produk terbaru ditempatkan dalam ‘div class=”list-carts”' yang berisi gambar produk, nama produk, harga produk, dan status produk yang dipesan pelanggan.</p><br>
 
  <br><li>Kontak Kami</li>
 <img src="gambar source code/html/kontak-kami1 tombol.png">
 <p>Pada kontak-kami, tag html, tag head, tag navbar, dan footer memiliki definisi yang sama dengan yang ada dalam halaman index. Selanjutnya, kami menggunakan tag section untuk membagi halaman website menjadi beberapa bagian. Section yang ada dalam halaman ini memiliki class dengan nama ‘contact’. Pada bagian awal section kami terdapat judul halaman dengan menggunakan tag ‘h2’ yaitu Kontak Kami. Lalu, ada teks penjelasan singkat tentang halaman ini. Kemudian, kami membuat division dengan class bernama ‘row-contact’ untuk membuat tombol-tombol yang mengarahkan pengguna ke alamat WhatsApp, Email, dan Instagram kami dan mengelompokkannya dalam satu baris yang sama.</p><br>
-<img src="gambar source code/html/kontak-kami2 alamt saran.png">
+<br><img src="gambar source code/html/kontak-kami2 alamt saran.png">
 <p>Selanjutnya, kami juga membuat division lagi dengan nama class ‘row-alamat-saran’ untuk mengelompokkan konten yang berisi alamat kami dan kritik saran dalam satu baris yang sama. Di dalam division tersebut terdapat division lainnya yang dibagi menjadi dua, yaitu division dengan class bernama ‘row-alamat’ dan division dengan class bernama ‘row-kritik-saran’. Pada division ‘row-alamat’ berisi judul Alamat Kami dengan menggunakan tag ‘h3’, kemudian ada teks alamat, telepon, dan tautan gmaps alamat kami. Sedangkan pada division dengan class bernama ‘row-kritik-saran’ berisi formular dengan input untuk nama, e-mail, kritik & saran yang dapat diisi oleh pelanggan, serta terdapat tombol kirim untuk mnegirimkan input tersebut.</p><br>
  
 <br><li>Login</li>
