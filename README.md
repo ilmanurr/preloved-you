@@ -396,7 +396,7 @@ font-weight: 500;: Mengatur ketebalan teks menjadi 500, yang mungkin menunjukkan
 <li>Media Query</li>
 <ul><li>Laptop</li>
 <img src="gambar source code/css/media query laptop.png">
- <p>Pertama kami membuat media query untuk laptop dengan mengatur style CSS ketika lebar layar maksimal adalah 1366 pixel. Kemudian ditetapkan bahwa ukuran font pada elemen html menjadi 100% dari nilai default.</p><br>
+ <p>Pertama kami membuat media query untuk laptop dengan mengatur style CSS ketika lebar layar maksimal adalah 1366 pixel. Kemudian ditetapkan bahwa ukuran font pada elemen html menjadi 100% dari nilai default.</p>
  <li>Tablet</li>
 <img src="gambar source code/css/media query tablet 1.png">
  <p>Pertama kami membuat media query untuk tablet dengan mengatur style CSS ketika lebar layar maksimal adalah 768 pixel. Lalu ditetapkan bahwa ukuran font pada elemen html menjadi 70% dari nilai default dan pada elemen body overflow-x diatur menjadi hidden serta tinggi minimum bocy menjadi 70vh (70% dari tinggi viewport) secara otomatis.</p>
@@ -421,7 +421,7 @@ font-weight: 500;: Mengatur ketebalan teks menjadi 500, yang mungkin menunjukkan
 <p>Kami menggunakan selector ‘#about-content .row .kenapa-content p’ untuk mengatur elemen paragraf yang berada di dalam elemen dengan kelas kenapa-content. Di dalamnya diatur ‘font-size: 1.3rem’ untuk menetapkan ukuran font menjadi 1,3 rem dan ‘text-align: justify’ untuk mengatur tata letak teks menjadi rata kanan dan kiri.</p>
 <p>Kami menggunakan selector ‘.contact .row-alamat-saran’ untuk mengatur style elemen dengan kelas row-alamat-saran yang di dalamnya diatur ‘flex-wrap: wrap’ untuk memungkinkan elemen-elemen di dalamnya dapat membuat baris baru jika ruang tidak mencukupi.</p>
 <p>Kami menggunakan slector ‘.contact .row-alamat-saran .row-alamat map’ untuk mengatur style elemen map yang ada dalam elemen dengan kelas row-alamat. Di dalamnya diatur ‘height: 30rem’ untuk menetapkan tinggi peta menjadi sebesar 30 rem.</p>
-<p>Terakhir, kami menggunakan selector ‘.contact .row-alamat-saran .row-kritik-saran’ untuk mengatur style elemen dengan kelas row-kritik-saran yang di dalamnya diatur ‘padding-top: 0’ untuk menghilangkan padding atas dan ‘margin-top: 2rem’ untuk menetapkan margin atas sebesar 2 rem.</p><br>
+<p>Terakhir, kami menggunakan selector ‘.contact .row-alamat-saran .row-kritik-saran’ untuk mengatur style elemen dengan kelas row-kritik-saran yang di dalamnya diatur ‘padding-top: 0’ untuk menghilangkan padding atas dan ‘margin-top: 2rem’ untuk menetapkan margin atas sebesar 2 rem.</p>
 <li>Mobile Phone</li>
  <img src="gambar source code/css/media query hp.png">
 <p>Selanjutnya, kami juga membuat media query untuk mobile phone atau smartphone dengan mengatur style CSS ketika lebar layar maksimal adalah 450 pixel. Pertama-tama kami menetapkan bahwa ukuran font pada elemen html menjadi 70% dari nilai default. Kemudian kami menggunakan selector body untuk mengatur style pada elemen body yang di dalamnya diatur ‘overflow-x: hidden’ untuk menyembunyikan overflow horizontal pada elemen body. Hal ini dapat berguna untuk mencegah gulir horizontal pada layar mobile phone. Terakhir, kami menggunakan slector section untuk mengatur style pada elemen section yang di dalamnya diatur ‘.min-height: 70vh auto’ untuk menetapkan tinggi minimum pada elemen-elemen secton menjadi 70% dari tinggi viewport atau layar perangkat. Penggunaan auto pada property tinggi ini akan memungkinkan elemen menyesuaikan tingginya sesuai layar perangkat yang digunakan dan hal ini dapat membantu memastikan bahwa elemen-elmen akan satu ukuran dengan viewport pada layar perangkat</p>
@@ -429,11 +429,11 @@ font-weight: 500;: Mengatur ketebalan teks menjadi 500, yang mungkin menunjukkan
 </ol>
 
 <br>3.3 Source Code JavaScript<br>
-<img src="gambar source code/javascript/js1.png">
+<img src="gambar source code/javascript/js 1.png">
 <p>Kode JavaScript yang kami buat tersebut mengimplementasikan beberapa fungsi untuk menangani interaksi pengguna pada suatu halaman web. Pertama-tama, kami membuat toggle class active untuk hamburger menu. ‘isiNavbar’ adalah elemen HTML yang ada dalam kelas isinavbar. Saat elemen dengan id ‘hamburger-menu’ diklik, fungsi ini menambahkan atau menghapus kelas active pada elemen isiNavbar dan menciptakan efek toggle. Efek toggle pada JavaScript sendiri merujuk pada perubahan antara dua keadaan atau kondisi. Pada umumnya, efek toggle digunakan untuk beralih antara menambah dan menghapus suatu property atau kelad pada elemen HTML.</p>
 <p>Lalu, kami membuat toggle class active untuk search form. ‘searchForm’ adalah elemen HTML dengan kelas search-form dan ‘searchBox’ adalah elemen HTML dengan id search-box. Saat elemen dengan id ‘search-button’ diklik, fungsi ini akan menambah atau menghapus kelas active pada elemen searchForm, memberikan focus pada elemen searchBox dan mencegah perilaku default dari tombol yang diklik.</p>
 <p>Kami juga membuat toggle class active untuk login form. ‘loginForm’ adalah elemen HTML dengan kelas login-form. Saat elemen dengan id ‘profil-menu’ diklik, fungsi ini akan menambah atau menghapus kelas active pada elemen loginForm dan memberikan focus pada elemen tersebut serta mencegah perilaku default dari elemen yang diklik.</p><br>
-<img src="gambar source code/javascript/js2.png">
+<img src="gambar source code/javascript/js 2.png">
 <p>Terakhir, kami membuat fungsi dan pengondisian agar dapat menutup navigasi dengan menekan di luar bagian navigasi. Kode program pada baris ke-28 adalah event listener untuk klik pada elemen body. Jika elemen yang diklik bukan bagian dari navigasi atau elemen yang dikecualikan (hamburger menu, serach button atau profil menu, maka kelas active akan dihapus dari elemen isiNavbar, searchForm, dan loginForm untuk menutup navigasi tersebut.</p>
 <br>LAMPIRAN C: Daftar Yang Akan Ditentukan<br>
 
