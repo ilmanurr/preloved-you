@@ -294,6 +294,16 @@ Pada halaman registration ini, kami menggunakan tag section untuk membagi halama
 <p>Kami menggunakan selector ‘.review .row-review .review-card h3’ untuk mengatur style elemen h3 yang berada di dalam elemen dengan kelas review-card. Di dalamnya diatur ‘font-size: 1.5rem’ untuk mengatur ukuran font sebesar 1,5 rem dan ‘margin: 1rem auto 0.5rem’ untuk menambahkan margin sebesar 1 rem di atas dan 0,5 rem di bawah serta secara otomatis di sisi kiri dan kanan elemen. Terakhir, kami juga menggunakan selector ‘.review .row-review .review-card p’ untuk mengatur style elemen paragraf yang berada di dalam elemen dengan kelas review-card. Di dalamnya diatur ‘text-align: center’ untuk menengahkan posisi teks, ‘max-width: 15rem’ untuk menetapkan lebar maksimum elemen sebesar 15 rem dan ‘line-height: 1.5’ untuk menetapkan tinggi baris sebesar 1,5.</p><br>
 
 <li>Produk Kami</li>
+ <img src="gambar source code/css/produkkami.jpg">
+<br><p>Kami menggunakan selector '#all-products, #new-products' yang mengatur elemen-elemen dengan ID "all-products" dan "new-products".yang didalamnya mengatur padding 7rem untuk atas dan bawah, dan 7% untuk sisi kiri dan kanan, serta ada jarak padding bawah sebesar 1.4rem.</p>
+<p>'#all-products h2, #new-products h2' mengatur gaya untuk elemen-elemen h2  dalam ID.Yang didalamnya mengatur teks agar berada di tengah (center), ukuran fontnya adalah 2.5rem, ada jarak margin atas sebesar 1rem, dan jarak margin bawah sebesar 2rem.</p>
+<p>'#all-products h2, #new-products h2' mengatur gaya untuk elemen-elemen h2  dalam ID.Yang didalamnya mengatur teks agar berada di tengah (center), ukuran fontnya adalah 2.5rem, ada jarak margin atas sebesar 1rem, dan jarak margin bawah sebesar 2rem.</p>
+<p>'#all-products h2 span, #new-products h2 span' mengatur teks elemen <span> dalam elemen elemen h2. Yang diatur didalamnya warna teks menjadi warna yang disebutkan dalam variabel CSS --primary</p>.
+<p>'.product .row' mengatur elemen dengan kelas "row" yang ada dalam "products". Yang didalamnya mengatur mode fleks (flex display), jika item banyak pindah baris selanjutnya(flex-wrap), dan item rata tengah horizontal (center)</p>
+<p>'.product .row :hover' ketika elemen-elemen dalam .product .row dihover oleh kursor. Ini mengubah skala elemen-elemen tersebut menjadi 1.1 kali lipat (memperbesar saat dihover).</p>
+<p>'.produk-terbaru, .list-produk' mengatur tampilan teks, memberikan border (tepi) sebanyak 1px dengan warna #d9cece, memberikan sudut bulat (border-radius) sebanyak 0.5rem, memberikan padding sebanyak 2rem, dan margin sebanyak 1.2rem. Selain itu, ada juga penambahan padding bawah sebanyak 1rem.</p>
+<br><img src="gambar source code/css/produkkami2.png">
+ 
 <li>Pesananmu</li>
 <li>Kontak Kami</li>
 <li>Footer</li>
