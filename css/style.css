@@ -776,7 +776,7 @@ footer .credit {
     #about-content .row .about-img {
         display: flex;
         align-items: center;
-        justify-content: center; /* Tambahkan baris ini */
+        justify-content: center;
     }
     
     #about-content .row .about-img img {
@@ -814,20 +814,6 @@ footer .credit {
         padding-top: 0;
         margin-top: 2rem;
     }
-    
-    .login {
-        margin-top: 5rem;
-    }
-
-    .login h2, .sign-up h2 {
-        font-size: 3rem;
-    }
-    
-    .login .input-group, .sign-up .input-group {
-        width: 50%;
-        height: 4rem;
-        margin: 1rem;
-    }
 }
 
     /* mobile phone */
@@ -842,23 +828,5 @@ footer .credit {
 
         section {
             min-height: 70vh auto;
-        }
-
-        .login, .sign-up {
-            margin-top: 10rem;
-            margin-bottom: 18 rem;
-        }
-
-        .login .create-akun {
-            margin-bottom: 2rem;
-        }
-
-        .login .input-group, .sign-up .input-group {
-            width: 80%;
-            margin: 1rem auto;
-        }
-
-        .sign-up p {
-            margin-bottom: 2rem;
         }
 }
