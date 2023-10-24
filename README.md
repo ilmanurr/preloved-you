@@ -297,8 +297,29 @@ Pada halaman registration ini, kami menggunakan tag section untuk membagi halama
 <li>Pesananmu</li>
 <li>Kontak Kami</li>
 <li>Footer</li>
-<li>Login</li>
-<li>Registration</li>
+
+
+<li>Login dan Registration</li>
+<br><img src="gambar source code/css/loginandregistration.png">
+<br><img src="gambar source code/css/loginandregist2.png">
+<br><img src="gambar source code/css/loginandregist3.png">
+<br><img src="gambar source code/css/loginandregist4.png">
+<br><ol type="a">
+<li>.login, .sign-up: Ini adalah selector yang mengarah pada elemen dengan kelas "login" dan "sign-up." Pengaturan ini akan mempengaruhi tampilan kedua elemen ini.</li>
+<li>.login h2, .sign-up h2: Ini mengarah pada elemen "h2" yang berada di dalam elemen dengan kelas "login" dan "sign-up." Ini mengatur tampilan teks dalam elemen ini, termasuk ukuran, gaya font, warna, dan lain-lain.</li>
+<li>.login .group, .sign-up .group: Ini mengarah pada elemen-elemen dengan kelas "group" yang berada di dalam elemen dengan kelas "login" dan "sign-up." Ini mengatur tampilan dari grup elemen yang mungkin berisi elemen-elemen seperti formulir input.</li>
+<li>.login .group .input-group, .sign-up .input-group: Ini mengarah pada elemen-elemen dengan kelas "input-group" yang berada di dalam elemen dengan kelas "group" di dalam elemen "login" dan "sign-up." Ini mengatur tampilan dari input grup, termasuk tampilan latar belakang, border, dan padding.</li>
+<li>.login .input-group input, .sign-up .input-group input: Ini mengarah pada elemen input yang berada di dalam elemen dengan kelas "input-group" di dalam elemen "login" dan "sign-up." Ini mengatur tampilan dari elemen input, termasuk lebar, padding, ukuran font, dan warna.</li>
+<li>.sign-up .group .input-group-jk: Ini mengarah pada elemen dengan kelas "input-group-jk" yang berada di dalam elemen dengan kelas "group" di dalam elemen "sign-up." Ini mengatur tampilan dari elemen input grup yang spesifik untuk elemen jenis kelamin ("jk").</li>
+<li>.sign-up .group .input-group-jk label: Ini mengarah pada label yang berada di dalam elemen dengan kelas "input-group-jk" di dalam elemen "sign-up." Ini mengatur tampilan dari label yang berada di sebelah input jenis kelamin.</li>
+<li>.sign-up .group .input-group-jk select: Ini mengarah pada elemen select (pilihan) yang berada di dalam elemen dengan kelas "input-group-jk" di dalam elemen "sign-up." Ini mengatur tampilan dari elemen select.</li>
+<li>.login .submit-button, .sign-up .submit-button: Ini mengarah pada tombol submit (tombol masuk atau mendaftar) yang berada di dalam elemen dengan kelas "login" dan "sign-up." Ini mengatur tampilan tombol, termasuk tampilan latar belakang, padding, ukuran font, dan lain-lain.</li>
+<li>.login .submit-button:hover, .sign-up .submit-button:hover: Ini mengatur tampilan tombol ketika tombol tersebut berada dalam keadaan hover (ketika kursor mouse berada di atasnya). Transformasi diterapkan untuk membuat tombol sedikit membesar, dan warna teks diubah ketika tombol dihover.</li>
+<li>.login .create-akun, .sign-up p: Ini mengarah pada elemen paragraf (p) yang berada di dalam elemen dengan kelas "create-akun" di dalam elemen "login" dan "sign-up." Ini mengatur tampilan paragraf ini, termasuk margin.</li>
+<li>.login .create-akun a, .sign-up .group a: Ini mengarah pada tautan (link) yang berada di dalam elemen dengan kelas "create-akun" di dalam elemen "login" dan tautan yang mungkin berada di dalam elemen dengan kelas "group" di dalam elemen "sign-up." Ini mengatur tampilan dari tautan ini, termasuk warna tautan.</li>
+<li>.login .create-akun a:hover, .sign-up a:hover: Ini mengatur tampilan tautan ketika tautan tersebut berada dalam keadaan hover (ketika kursor mouse berada di atasnya). Warna tautan diubah ketika tautan dihover.</li> 
+</ol>
+</p>
 
 <br>3.3 Source Code JavaScript<br>
 <br>LAMPIRAN C: Daftar Yang Akan Ditentukan<br>
