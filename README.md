@@ -297,14 +297,37 @@ Pada halaman registration ini, kami menggunakan tag section untuk membagi halama
 <li>Pesananmu</li>
 <li>Kontak Kami</li>
 <li>Footer</li>
-
+<img src="gambar source code/css/footer.png">
+<br><ol>
+<li>background-color: var(--primary);: Mengatur warna latar belakang elemen "footer". Warna diambil dari variabel CSS yang disebut --primary.
+text-align: center;: Mengatur teks dalam elemen "footer" menjadi rata tengah.
+width: 100%;: Mengatur lebar elemen "footer" agar mencakup seluruh lebar layar.
+padding: 0.5rem 0 2rem;: Mengatur jarak dalam elemen "footer". Padding atas adalah 0.5rem, padding bawah adalah 2rem, dan tidak ada padding samping.
+margin-top: 2rem;: Menambahkan jarak atas (margin atas) elemen "footer" sebesar 2rem.
+padding: 1.2rem;: Padding samping elemen "footer" ditentukan ulang, mengganti padding yang sebelumnya telah ditetapkan di atas. Ini akan mengatur padding ke 1.2rem di semua sisi elemen.
+footer .sosmed:</li>
+ <li>Ini adalah selektor yang memilih elemen-elemen dengan kelas .sosmed yang berada di dalam elemen "footer".
+padding: 0.5rem 0;: Mengatur jarak dalam elemen-elemen dengan kelas .sosmed. Padding atas adalah 0.5rem, dan tidak ada padding samping dan bawah.
+footer .sosmed a:</li>
+<li>Ini adalah selektor yang memilih elemen "a" (taut) yang berada di dalam elemen-elemen dengan kelas .sosmed yang ada di dalam elemen "footer".
+font-size: 0.9rem;: Mengatur ukuran teks untuk taut (link) di dalam elemen .sosmed.
+color: #000000;: Mengatur warna teks untuk taut (link) menjadi hitam (#000000).
+margin: 0.5rem;: Menambahkan jarak sekitar taut dengan 0.5rem.
+footer .sosmed a:hover:</li>
+<li>Ini adalah selektor yang menggaya taut (link) ketika mouse berada di atasnya (hover).
+color: var(--bg);: Mengganti warna teks untuk taut menjadi warna yang diambil dari variabel CSS yang disebut --bg.
+footer .credit:</li>
+<li>Ini adalah selektor yang memilih elemen dengan kelas .credit yang berada di dalam elemen "footer".
+font-size: 1rem;: Mengatur ukuran teks untuk elemen dengan kelas .credit.
+margin-top: 0.5rem;: Menambahkan jarak atas (margin atas) elemen dengan kelas .credit sebesar 0.5rem.
+font-weight: 500;: Mengatur ketebalan teks menjadi 500, yang mungkin menunjukkan teks dengan ketebalan yang lebih besar dari biasa.</li></ol>
 
 <li>Login dan Registration</li>
 <br><img src="gambar source code/css/loginandregistration.png">
 <br><img src="gambar source code/css/loginandregist2.png">
 <br><img src="gambar source code/css/loginandregist3.png">
 <br><img src="gambar source code/css/loginandregist4.png">
-<br><ol type="a">
+<br><ol>
 <li>.login, .sign-up: Ini adalah selector yang mengarah pada elemen dengan kelas "login" dan "sign-up." Pengaturan ini akan mempengaruhi tampilan kedua elemen ini.</li>
 <li>.login h2, .sign-up h2: Ini mengarah pada elemen "h2" yang berada di dalam elemen dengan kelas "login" dan "sign-up." Ini mengatur tampilan teks dalam elemen ini, termasuk ukuran, gaya font, warna, dan lain-lain.</li>
 <li>.login .group, .sign-up .group: Ini mengarah pada elemen-elemen dengan kelas "group" yang berada di dalam elemen dengan kelas "login" dan "sign-up." Ini mengatur tampilan dari grup elemen yang mungkin berisi elemen-elemen seperti formulir input.</li>
@@ -320,6 +343,7 @@ Pada halaman registration ini, kami menggunakan tag section untuk membagi halama
 <li>.login .create-akun a:hover, .sign-up a:hover: Ini mengatur tampilan tautan ketika tautan tersebut berada dalam keadaan hover (ketika kursor mouse berada di atasnya). Warna tautan diubah ketika tautan dihover.</li> 
 </ol>
 </p>
+</ol>
 
 <br>3.3 Source Code JavaScript<br>
 <br>LAMPIRAN C: Daftar Yang Akan Ditentukan<br>
