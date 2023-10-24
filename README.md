@@ -325,8 +325,8 @@ font-weight: 500;: Mengatur ketebalan teks menjadi 500, yang mungkin menunjukkan
 <li>Login dan Registration</li>
 <br><img src="gambar source code/css/loginandregistration.png">
 <br><img src="gambar source code/css/loginandregist2.png">
-<br><img src="gambar source code/css/loginandregist3.png">
-<br><img src="gambar source code/css/loginandregist4.png">
+<br><img src="gambar source code/css/loginandaregist3.png">
+<br><img src="gambar source code/css/loginandresgist4.png">
 <br><ol>
 <li>.login, .sign-up: Ini adalah selector yang mengarah pada elemen dengan kelas "login" dan "sign-up." Pengaturan ini akan mempengaruhi tampilan kedua elemen ini.</li>
 <li>.login h2, .sign-up h2: Ini mengarah pada elemen "h2" yang berada di dalam elemen dengan kelas "login" dan "sign-up." Ini mengatur tampilan teks dalam elemen ini, termasuk ukuran, gaya font, warna, dan lain-lain.</li>
