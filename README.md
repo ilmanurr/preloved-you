@@ -375,7 +375,7 @@ font-weight: 500;: Mengatur ketebalan teks menjadi 500, yang mungkin menunjukkan
 <li>Login dan Registration</li>
 <br><img src="gambar source code/css/loginandregistration.png">
 <br><img src="gambar source code/css/loginandregist2.png">
-<br><img src="gambar source code/css/loginandaregist3.png">
+<br><img src="gambar source code/css/loginandregist3.png">
 <br><img src="gambar source code/css/loginandresgist4.png">
 <br><ol>
 <li>.login, .sign-up: Ini adalah selector yang mengarah pada elemen dengan kelas "login" dan "sign-up." Pengaturan ini akan mempengaruhi tampilan kedua elemen ini.</li>
@@ -429,5 +429,11 @@ font-weight: 500;: Mengatur ketebalan teks menjadi 500, yang mungkin menunjukkan
 </ol>
 
 <br>3.3 Source Code JavaScript<br>
+<img src="gambar source code/javascript/js1.png">
+<p>Kode JavaScript yang kami buat tersebut mengimplementasikan beberapa fungsi untuk menangani interaksi pengguna pada suatu halaman web. Pertama-tama, kami membuat toggle class active untuk hamburger menu. ‘isiNavbar’ adalah elemen HTML yang ada dalam kelas isinavbar. Saat elemen dengan id ‘hamburger-menu’ diklik, fungsi ini menambahkan atau menghapus kelas active pada elemen isiNavbar dan menciptakan efek toggle. Efek toggle pada JavaScript sendiri merujuk pada perubahan antara dua keadaan atau kondisi. Pada umumnya, efek toggle digunakan untuk beralih antara menambah dan menghapus suatu property atau kelad pada elemen HTML.</p>
+<p>Lalu, kami membuat toggle class active untuk search form. ‘searchForm’ adalah elemen HTML dengan kelas search-form dan ‘searchBox’ adalah elemen HTML dengan id search-box. Saat elemen dengan id ‘search-button’ diklik, fungsi ini akan menambah atau menghapus kelas active pada elemen searchForm, memberikan focus pada elemen searchBox dan mencegah perilaku default dari tombol yang diklik.</p>
+<p>Kami juga membuat toggle class active untuk login form. ‘loginForm’ adalah elemen HTML dengan kelas login-form. Saat elemen dengan id ‘profil-menu’ diklik, fungsi ini akan menambah atau menghapus kelas active pada elemen loginForm dan memberikan focus pada elemen tersebut serta mencegah perilaku default dari elemen yang diklik.</p><br>
+<img src="gambar source code/javascript/js2.png">
+<p>Terakhir, kami membuat fungsi dan pengondisian agar dapat menutup navigasi dengan menekan di luar bagian navigasi. Kode program pada baris ke-28 adalah event listener untuk klik pada elemen body. Jika elemen yang diklik bukan bagian dari navigasi atau elemen yang dikecualikan (hamburger menu, serach button atau profil menu, maka kelas active akan dihapus dari elemen isiNavbar, searchForm, dan loginForm untuk menutup navigasi tersebut.</p>
 <br>LAMPIRAN C: Daftar Yang Akan Ditentukan<br>
 
