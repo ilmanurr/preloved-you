@@ -298,14 +298,54 @@ Pada halaman registration ini, kami menggunakan tag section untuk membagi halama
 <br><p>Kami menggunakan selector '#all-products, #new-products' yang mengatur elemen-elemen dengan ID "all-products" dan "new-products".yang didalamnya mengatur padding 7rem untuk atas dan bawah, dan 7% untuk sisi kiri dan kanan, serta ada jarak padding bawah sebesar 1.4rem.</p>
 <p>'#all-products h2, #new-products h2' mengatur gaya untuk elemen-elemen h2  dalam ID.Yang didalamnya mengatur teks agar berada di tengah (center), ukuran fontnya adalah 2.5rem, ada jarak margin atas sebesar 1rem, dan jarak margin bawah sebesar 2rem.</p>
 <p>'#all-products h2, #new-products h2' mengatur gaya untuk elemen-elemen h2  dalam ID.Yang didalamnya mengatur teks agar berada di tengah (center), ukuran fontnya adalah 2.5rem, ada jarak margin atas sebesar 1rem, dan jarak margin bawah sebesar 2rem.</p>
-<p>'#all-products h2 span, #new-products h2 span' mengatur teks elemen <span> dalam elemen elemen h2. Yang diatur didalamnya warna teks menjadi warna yang disebutkan dalam variabel CSS --primary</p>.
+<p>'#all-products h2 span, #new-products h2 span' mengatur teks elemen <span> dalam elemen elemen h2. Yang diatur didalamnya warna teks menjadi warna yang disebutkan dalam variabel CSS --primary</p>
 <p>'.product .row' mengatur elemen dengan kelas "row" yang ada dalam "products". Yang didalamnya mengatur mode fleks (flex display), jika item banyak pindah baris selanjutnya(flex-wrap), dan item rata tengah horizontal (center)</p>
 <p>'.product .row :hover' ketika elemen-elemen dalam .product .row dihover oleh kursor. Ini mengubah skala elemen-elemen tersebut menjadi 1.1 kali lipat (memperbesar saat dihover).</p>
 <p>'.produk-terbaru, .list-produk' mengatur tampilan teks, memberikan border (tepi) sebanyak 1px dengan warna #d9cece, memberikan sudut bulat (border-radius) sebanyak 0.5rem, memberikan padding sebanyak 2rem, dan margin sebanyak 1.2rem. Selain itu, ada juga penambahan padding bawah sebanyak 1rem.</p>
-<br><img src="gambar source code/css/produkkami2.png">
+<br><img src="gambar source code/css/produkkami2.jpg">
+<p>'#row-all-product .list-produk img, #row-produk-terbaru .produk-terbaru img:' mengatur gambar yang ada dalam elemen-elemen. mengatur lebar gambar sebanyak 10rem, tinggi gambar sebanyak 10rem, dan memberikan sudut bulat (border-radius) sebanyak 0.2rem.</p>
+<p>'#row-all-product .list-produk .produk-tittle, #row-produk-terbaru .produk-terbaru .produk-tittle l' mengatur judul teks elemen ukuran font sebanyak 1.2rem, memberikan jarak margin atas sebanyak 1rem, dan jarak margin bawah sebanyak 0.5rem</p>
+<p>'#row-all-product .list-produk .produk-price, #row-produk-terbaru .produk-terbaru .produk-price' mengatur teks harga elemen ukuran font sebanyak 1rem, memberikan jarak margin atas sebanyak 1rem, dan jarak margin bawah sebanyak 0.5rem.</p> 
  
 <li>Pesananmu</li>
+ <img src="gambar source code/css/pesanan1.jpg">
+<br><p>Kami menggunakan selector '.carts' untuk elemen dengan class "carts". Yang diatur didalamnya adalah Memberi padding pada elemen carts, 7rem (atau 70px) untuk padding top dan bottom, 7% untuk padding left dan right, dan 1.4rem (14px) untuk padding bottom.</p>
+<p>'.carts h2' mengatur elemen h2/heading.yang didalamnya mengatur teks agar berada di tengah (center), ukuran fontnya adalah 2.5rem, ada jarak margin atas sebesar 1rem, dan jarak margin bawah sebesar 2rem.</p>
+<p>'.carts h2 span' Mengatur warna teks pada elemen span di dalam h2 menjadi warna primary.</p>
+<p>'.carts p' mengatur elemen paragraf (<p>) di dalam "carts". Yang didalamnya mengatur teks agar berada di tengah (center), ukuran fontnya adalah 1rem, lebar maksimum teks adalah 30rem, ada jarak margin otomatis, dan tinggi barisnya adalah 1.5.</p>
+<p>'.carts .row' mengatur elemen dengan kelas "row" yang ada dalam "carts". Yang didalamnya mengatur mode fleks (flex display), jika item banyak pindah baris selanjutnya(flex-wrap), dan item rata tengah horizontal (center)</p>
+<p>'.carts .row .list-carts' mengatur elemen .list-carts masing-masing item di dalam .row yang didalamnya mengatur mengatur tampilan teks, memberikan border (tepi) sebanyak 1px dengan warna #d9cece, memberikan sudut bulat (border-radius) sebanyak 0.5rem, memberikan padding sebanyak 1rem, dan memberikan jarak margin sebanyak 1.5rem.</p>
+ <img src="gambar source code/css/pesanan2.jpg">
+<p>'.carts .row .list-carts img' mengatur gambar yang ada dalam elemen dengan kelas "list-carts". Ini mengatur lebar gambar sebanyak 14rem, tinggi gambar sebanyak 14rem, dan memberikan sudut bulat (border-radius) sebanyak 0.2rem</p>
+<p>'.carts .row .list-carts h3' mengatur elemen <h3> yang ada dalam elemen dengan kelas "list-carts". Ini mengatur ukuran font sebanyak 1.2rem, memberikan jarak margin atas sebanyak 1rem, dan jarak margin bawah sebanyak 0.5rem.</p>
+<p>'.carts .row .list-carts .produk-price' mengatur elemen dengan kelas "produk-price" yang ada dalam elemen dengan kelas "list-carts". Ini mengatur ukuran font sebanyak 1rem, memberikan jarak margin atas sebanyak 0.8rem, dan jarak margin bawah sebanyak 0.5rem.</p>
+<p>'.carts .row .list-carts .produk-status' mengatur elemen dengan kelas "produk-status" yang ada dalam elemen dengan kelas "list-carts". Ini mengatur ukuran font sebanyak 0.9rem, memberikan jarak margin atas sebanyak 0.5rem, dan mengubah gaya huruf menjadi miring (italic).</p>
+
 <li>Kontak Kami</li>
+ <img src="gambar source code/css/kontak1.jpg">
+ <img src="gambar source code/css/kontak2.jpg">
+<br><p>Kami menggunakan selector '.contact' yang mengatur elemen-elemen kelas "contact".Yang didalamnya mengatur jarak padding sekitar elemen tersebut. Padding diatur sebesar 7rem untuk atas dan bawah, serta 7% untuk sisi kiri dan kanan, dengan tambahan padding bawah sebesar 1.4rem.</p>
+<p>'.contact h2' mengatur judul teks agar berada di tengah (center), ukuran fontnya adalah 2.5rem, ada jarak margin atas sebesar 1rem, dan jarak margin bawah sebesar 1rem.
+'.contact h2 span' mengatur teks yang berada dalam elemen <span> yang ada dalam elemen h2 agar warna primary. </p>
+<p>'.contact p' mengatur teks paragraf agar berada di tengah (center), ukuran fontnya adalah 1rem, ada jarak margin atas sebesar 0.5rem, jarak margin bawah sebesar 1rem, tinggi baris sebesar 1.5, dan justifikasi konten ke tengah.</p>
+<p>'.contact .row-contact' mengatur elemen dengan kelas "row-contact" yang ada dalam "contact". Yang didalamnya mengatur mode fleks (flex display), jika item banyak pindah baris selanjutnya(flex-wrap), dan item rata tengah horizontal (center)</p>
+<p>'.contact .row-contact .cta' styling tombol caal to action, mengatur margin atas sebesar 1rem, tampilan sebagai inline-block, padding sebesar 1rem, ukuran font sebesar 1.1rem, warna teks, warna latar belakang, sudut bulat sebesar 0.5rem, bayangan kotak sebesar 1px 1px 2px rgba(255, 255, 255, 0.5), dan margin sebesar 1rem.</p>
+<p>'.contact .row-contact :hover' saat elemen-elemen dalam .contact .row-contact dihover oleh kursor. Ini mengubah skala elemen-elemen tersebut menjadi 1.1 kali lipat (memperbesar saat dihover) dan mengubah warna teks menjadi hitam</p>
+<p>'.contact .row-alamat-saran' mengatur elemen untuk ditampilkan dalam mode fleks (flex display) dan menambahkan margin atas sebesar 4rem.</p>
+<p>'.contact .row-alamat, .row-kritik-saran ' mengatur kolom kritik saran dengan mengatur lebar elemen agar fleksibel (flex), menambahkan padding, dan ada komentar untuk border yang dihapus.</p>
+<p>'.contact .row-alamat-saran .row-alamat h3, .row-kritik-saran h3' mengatur judul alamat kritik dan saran agar teks agar rata kiri, menambahkan jarak margin bawah, padding kiri, dan garis bawah (underline) pada teks.</p>
+<br><img src="gambar source code/css/kontak3.jpg">
+<img src="gambar source code/css/kontak4.jpg">
+<p>'.contact .row-alamat-saran .row-alamat p' mengatur style teks alamat dengan mengatur jenis font (font-family), teks agar rata kiri, ukuran font sebesar 1rem, dan padding kiri.</p>
+<p>'.contact .row-alamat-saran .row-alamat .telp a' mengatur tautan (link) yang berada dalam elemen dengan kelas "telp" dalam elemen dengan kelas "row-alamat". Ini mengatur warna tautan #2B5FA6, yang merupakan warna biru</p>
+<p>'.contact .row-alamat-saran .row-alamat .map' styling map agar memiliki fleksibilitas lebar dengan flex: 1:1 45rem, lebar elemen sebesar 100%, memadatkan objek gambar untuk mengisi elemen dengan object-fit: cover, dan menambahkan padding sebesar 0.5rem pada semua sisi elemen.</p>
+<p>'.contact .row-alamat-saran .row-kritik-saran form' mengatur form kritik/saran agar memiliki fleksibilitas lebar dengan flex: 1 1 45rem, dan menambahkan padding sebesar 0.5rem pada semua sisi elemen, serta mengatur teks di dalamnya menjadi berada di tengah (center).</p>
+<p>'.contact .row-alamat-saran .row-kritik-saran .input-group' mengatur grup input,  membuat grup input tersebut menampilkan elemen sebagai fleks (flex), menambahkan jarak atas sebesar 0.5rem, mengatur warna latar belakang menjadi #e7e2e2, menambahkan border dengan ketebalan 1px dan warna yang sesuai dengan variabel CSS --primary, serta memberikan padding pada sisi kiri sebesar 0.5rem.</p>
+<p>'.contact .row-alamat-saran .row-kritik-saran .input-group input' mengatur lebar elemen menjadi 100%, memberikan padding pada semua sisinya sebesar 0.5rem, mengatur ukuran font sebesar 1rem, menghilangkan latar belakang (background) dan mengatur warna teks menjadi #000000 (hitam).</p>
+<p>'.contact .row-alamat-saran .row-kritik-saran .input-group textarea' mengatur elemen textarea yang berada dalam grup input, mengatur lebar elemen sebesar 85%, memberikan padding pada semua sisi sebesar 0.5rem, mengatur ukuran font sebesar 1rem, menghilangkan latar belakang (background), dan mengatur warna teks menjadi #000000 (hitam).</p>
+<p>' .contact .row-alamat-saran .row-kritik-saran .submit-button' mengatur tombol submit, mengatur margin, tampilan elemen sebagai fleks (flex), menambahkan padding pada sisi kiri dan kanan sebesar 0.5rem, mengatur ukuran font sebesar 1rem, warna teks menjadi #000000 (hitam), latar belakang --primary, menambahkan efek kursor tangan saat diarahkan ke tombol, dan memberikan sudut bulat pada tombol sebesar 0.5rem.</p>
+<p>'.contact .row-alamat-saran .row-kritik-saran .submit-button:hover' memberikan efek hover pada tombol submit, mengubah skala tombol menjadi 1.1 kali lipat (memperbesar saat dihover) dan mengubah warna teks tombol menjadi putih #ffffff.</p>
+  
 <li>Footer</li>
 <img src="gambar source code/css/footer.png">
 <br><ol>
