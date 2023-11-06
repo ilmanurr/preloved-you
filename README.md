@@ -444,10 +444,10 @@ font-weight: 500;: Mengatur ketebalan teks menjadi 500, yang mungkin menunjukkan
  <br><li>Tampilan “Tentang Kami” pada Beranda</li>
  <img src="image-srs/tentang kami.jpg">
  <br><li>Tampilan “Produk Terbaru Kami” pada Beranda</li>
- <img src="image-srs/beranda Produk.jpg">
+ <img src="image-srs/Beranda Produk.jpg">
  <br><li>Tampilan “Pendapat mereka” pada Beranda</li>
  <img src="image-srs/Beranda Review.jpg">
- <img src="image-srs/Beranda footer.jpg">
+ <img src="image-srs/beranda footer.jpg">
  <br><li>Tampilan menu “Login” pada Beranda</li>
  <img src="image-srs/login beranda.jpg">
 
