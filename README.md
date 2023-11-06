@@ -435,5 +435,18 @@ font-weight: 500;: Mengatur ketebalan teks menjadi 500, yang mungkin menunjukkan
 <p>Kami juga membuat toggle class active untuk login form. ‘loginForm’ adalah elemen HTML dengan kelas login-form. Saat elemen dengan id ‘profil-menu’ diklik, fungsi ini akan menambah atau menghapus kelas active pada elemen loginForm dan memberikan focus pada elemen tersebut serta mencegah perilaku default dari elemen yang diklik.</p><br>
 <img src="gambar source code/javascript/js 2.png">
 <p>Terakhir, kami membuat fungsi dan pengondisian agar dapat menutup navigasi dengan menekan di luar bagian navigasi. Kode program pada baris ke-28 adalah event listener untuk klik pada elemen body. Jika elemen yang diklik bukan bagian dari navigasi atau elemen yang dikecualikan (hamburger menu, serach button atau profil menu, maka kelas active akan dihapus dari elemen isiNavbar, searchForm, dan loginForm untuk menutup navigasi tersebut.</p>
-<br>LAMPIRAN C: Daftar Yang Akan Ditentukan<br>
+
+<br>4. Tampilan Website<br>
+3.1 Tampilan Menu Beranda<br>
+<ol type="a">
+ <li>Beranda Utama</li>
+ <img src="image-srs/Beranda Awal.jpg">
+ <br><li>Tampilan “Tentang Kami” pada Beranda</li>
+ <img src="image-srs/tentang kami.jpg">
+ <br><li>Tampilan “Produk Terbaru Kami” pada Beranda</li>
+ <img src="image-srs/Beranda Produk.jpg">
+ <br><li>Tampilan “Pendapat mereka” pada Beranda</li>
+ <img src="image-srs/Beranda Review.jpg">
+ <br><li>Tampilan menu “Login” pada Beranda</li>
+ <img src="image-srs/login beranda.jpg">
 
