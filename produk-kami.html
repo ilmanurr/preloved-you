@@ -44,6 +44,7 @@
         <!-- icon navbar -->
         <div class="navbar-extra">
             <a href="#" id="search-button"><i data-feather="search"></i></a>
+            <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i><span id="icon-cart-span">0</span></a>
             <a href="#" id="profil-menu"><i data-feather="user"></i></a>
             <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
         </div>
@@ -62,88 +63,537 @@
             <p>Belum punya akun? <a href="registration.html">Daftar</a></p>
         </div>
         <!-- Login navbar end -->
+
+        <!-- Shopping Cart start -->
+        <div class="shopping-cart">
+            <h2>Shopping Cart</h2>
+            <div class="all-cart-list">
+                <div class="cart-list">
+                    <div class="items">
+                        <div class="image-produk">
+                            <img src="image/hoodie-hijau.jpg" alt="produk2">
+                        </div>
+                        <div class="nama-produk">
+                            NAME
+                        </div>
+                        <div class="totalHarga">
+                            $200
+                        </div>
+                        <div class="jumlah-produk">
+                            <span class="minus">-</span>
+                            <span>1</span>
+                            <span class="plus">+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shopping-cart-button">
+                <button class="close">Kembali</button>
+                <button class="check-out"><a href="checkout.html">CheckOut</a></button>
+            </div>
+        </div>
+        <!-- Shopping Cart end -->
     </nav>
     <!-- Navbar Section end -->
 
-    <!-- Produk terbaru start -->
-    <section class="product" id="new-products">
-        <h2><span>Produk Terbaru</span> Kami</h2>
-
-        <div class="row" id="row-produk-terbaru">
-            <div class="produk-terbaru">
-                <img src="image/produk2.jpg" alt="Hoodie Hijau">
-                <h3 class="produk-tittle">Hoodie Hijau</h3>
-                <p class="produk-price">IDR 70k</p>
-            </div>
-            <div class="produk-terbaru">
-                <img src="image/produk3.jpg" alt="Kemeja Flannel">
-                <h3 class="produk-tittle">Kemeja Flannel</h3>
-                <p class="produk-price">IDR 50k</p>
-            </div>
-            <div class="produk-terbaru">
-                <img src="image/produk4.jpg" alt="Kemeja Abu">
-                <h3 class="produk-tittle">Kemeja Abu</h3>
-                <p class="produk-price">IDR 50k</p>
-            </div>
-            <div class="produk-terbaru">
-                <img src="image/produk5.jpg" alt="Sweater Coklat">
-                <h3 class="produk-tittle">Sweater Coklat</h3>
-                <p class="produk-price">IDR 60k</p>
-            </div>
-        </div>
-    </section>
-    <!-- Produk terbaru end -->
-
     <!-- Product Section start -->
     <section class="product" id="all-products">
-        <h2><span>Produk</span> Kami</h2>
+        <h2><span>Produk Terbaru</span> Kami</h2>
+        <div class="row" id="row-all-product">
+            <div class="list-produk">
+                <img src="image/hoodie-hijau.jpg" alt="Hoodie Hijau">
+                <h3 class="produk-tittle">Hoodie Hijau</h3>
+                <p class="produk-price">Rp 70.000</p>
+
+                <div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                    <a href="#modal-hoodie-hijau" class="detail-produk">Detail</a>
+                </div>
+            </div>
+            <div class="list-produk">
+                <img src="image/kemeja-flanel-coklat.jpg" alt="Kemeja Flanel Coklat">
+                <h3 class="produk-tittle">Kemeja Flanel Coklat</h3>
+                <p class="produk-price">Rp 50.000</p>
+
+                <div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                    <a href="#modal-kemeja-flanel-coklat" class="detail-produk">Detail</a>
+                </div>
+            </div>
+            <div class="list-produk">
+                <img src="image/kemeja-abu.jpg" alt="Kemeja Abu">
+                <h3 class="produk-tittle">Kemeja Abu</h3>
+                <p class="produk-price">Rp 50.000</p>
+
+                <div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                    <a href="#modal-kemeja-abu" class="detail-produk">Detail</a>
+                </div>
+            </div>
+            <div class="list-produk">
+                <img src="image/sweater-coklat.jpg" alt="Sweater Coklat">
+                <h3 class="produk-tittle">Sweater Coklat</h3>
+                <p class="produk-price">Rp 60.000</p>
+
+                <div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                    <a href="#modal-kemeja-abu" class="detail-produk">Detail</a>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="all-produk-tittle"><span>Produk</span> Kami</h2>
 
         <div class="row" id="row-all-product">
             <div class="list-produk">
-                <img src="image/produk6.jpg" alt="Kemeja Maroon">
+                <img src="image/kemeja-maroon.jpg" alt="Kemeja Maroon">
                 <h3 class="produk-tittle">Kemeja Maroon</h3>
-                <p class="produk-price">IDR 50k</p>
+                <p class="produk-price">Rp 50.000</p>
+
+                <div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                    <a href="#modal-kemeja-maroon" class="detail-produk">Detail</a>
+                </div>
             </div>
             <div class="list-produk">
-                <img src="image/produk7.jpg" alt="Sweater Stripe">
+                <img src="image/sweater-stripe.jpg" alt="Sweater Stripe">
                 <h3 class="produk-tittle">Sweater Stripe</h3>
-                <p class="produk-price">IDR 60k</p>
+                <p class="produk-price">Rp 60.000</p>
+
+                <div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                    <a href="#modal-sweater-stripe" class="detail-produk">Detail</a>
+                </div>
             </div>
             <div class="list-produk">
-                <img src="image/produk8.jpg" alt="Sweater Pink">
+                <img src="image/sweater-pink.jpg" alt="Sweater Pink">
                 <h3 class="produk-tittle">Sweater Pink</h3>
-                <p class="produk-price">IDR 60k</p>
+                <p class="produk-price">Rp 60.000</p>
+
+                <div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                    <a href="#modal-sweater-pink" class="detail-produk">Detail</a>
+                </div>
             </div>
             <div class="list-produk">
-                <img src="image/produk9.jpg" alt="Hoodie Cream">
+                <img src="image/hoodie-cream.jpg" alt="Hoodie Cream">
                 <h3 class="produk-tittle">Hoodie Cream</h3>
-                <p class="produk-price">IDR 70k</p>
+                <p class="produk-price">Rp 70.000</p>
+
+                <div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                    <a href="#modal-hoodie-cream" class="detail-produk">Detail</a>
+                </div>
             </div>
             <div class="list-produk">
-                <img src="image/produk10.jpg" alt="Kemeja Flannel">
-                <h3 class="produk-tittle">Kemeja Flannel</h3>
-                <p class="produk-price">IDR 50k</p>
+                <img src="image/kemeja-flanel-biru.jpg" alt="Kemeja Flanel Biru">
+                <h3 class="produk-tittle">Kemeja Flanel Biru</h3>
+                <p class="produk-price">Rp 50.000</p>
+
+                <div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                    <a href="#modal-kemeja-flanel-biru" class="detail-produk">Detail</a>
+                </div>
             </div>
             <div class="list-produk">
-                <img src="image/produk11.jpg" alt="Kemeja Hitam">
+                <img src="image/kemeja-hitam.jpg" alt="Kemeja Hitam">
                 <h3 class="produk-tittle">Kemeja Hitam</h3>
-                <p class="produk-price">IDR 50k</p>
+                <p class="produk-price">Rp 50.000</p>
+
+                <div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                    <a href="#modal-kemeja-hitam" class="detail-produk">Detail</a>
+                </div>
             </div>
             <div class="list-produk">
-                <img src="image/produk12.jpg" alt="Kemeja Biru">
+                <img src="image/kemeja-biru.jpg" alt="Kemeja Biru">
                 <h3 class="produk-tittle">Kemeja Biru</h3>
-                <p class="produk-price">IDR 50k</p>
+                <p class="produk-price">Rp 50.000</p>
+                
+                <div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                    <a href="#modal-kemeja-biru" class="detail-produk">Detail</a>
+                </div>
             </div>
             <div class="list-produk">
-                <img src="image/produk13.jpg" alt="Vest Coklat">
+                <img src="image/vest-coklat.jpg" alt="Vest Coklat">
                 <h3 class="produk-tittle">Vest Coklat</h3>
-                <p class="produk-price">IDR 50k</p>
+                <p class="produk-price">Rp 50.000</p>
+
+                <div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                    <a href="#modal-vest-coklat" class="detail-produk">Detail</a>
+                </div>
             </div>
         </div>
 
         <!-- Produk lain bisa ditambahkan disini -->
     </section>
     <!-- Product Section end -->
+
+<!-- Modal Box Item Detail start -->
+<div class="detail-box" id="modal-hoodie-hijau">
+    <div class="detail-box-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="detail-content">
+            <div class="slider-container" >
+                <a href="#" class="slider-btn" id="prevBtn"><i data-feather="chevron-left"></i></a>
+                <div class="slide-img">
+                    <img src="image/hoodie-hijau.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-maroon.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/hoodie-cream.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-hitam.jpg" alt="">
+                </div>
+                <a href="#" class="slider-btn" id="nextBtn"><i data-feather="chevron-right"></i></a>
+            </div>
+            <div class="konten-produk">
+                <h3 class="produk-tittle">Hoodie Hijau</h3>
+                <p class="deskripsi-produk">deskripsi produk bla bla bla Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat omnis nisi alias temporibus, quos eos.</p>
+                <p class="produk-price">Rp 70.000</p><div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+<div class="detail-box" id="modal-kemeja-flanel-coklat">
+    <div class="detail-box-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="detail-content">
+            <div class="slider-container" >
+                <a href="#" class="slider-btn" id="prevBtn"><i data-feather="chevron-left"></i></a>
+                <div class="slide-img">
+                    <img src="image/kemeja-flanel-coklat.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-maroon.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/hoodie-cream.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-hitam.jpg" alt="">
+                </div>
+                <a href="#" class="slider-btn" id="nextBtn"><i data-feather="chevron-right"></i></a>
+            </div>
+            <div class="konten-produk">
+                <h3 class="produk-tittle">Kemeja Flanel Coklat</h3>
+                <p class="deskripsi-produk">deskripsi produk bla bla bla Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat omnis nisi alias temporibus, quos eos.</p>
+                <p class="produk-price">Rp 50.000</p><div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+<div class="detail-box" id="modal-kemeja-abu">
+    <div class="detail-box-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="detail-content">
+            <div class="slider-container" >
+                <a href="#" class="slider-btn" id="prevBtn"><i data-feather="chevron-left"></i></a>
+                <div class="slide-img">
+                    <img src="image/kemeja-abu.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-maroon.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/hoodie-cream.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-hitam.jpg" alt="">
+                </div>
+                <a href="#" class="slider-btn" id="nextBtn"><i data-feather="chevron-right"></i></a>
+            </div>
+            <div class="konten-produk">
+                <h3 class="produk-tittle">Kemeja Abu</h3>
+                <p class="deskripsi-produk">deskripsi produk bla bla bla Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat omnis nisi alias temporibus, quos eos.</p>
+                <p class="produk-price">Rp 50.000</p><div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+<div class="detail-box" id="modal-sweater-coklat">
+    <div class="detail-box-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="detail-content">
+            <div class="slider-container" >
+                <a href="#" class="slider-btn" id="prevBtn"><i data-feather="chevron-left"></i></a>
+                <div class="slide-img">
+                    <img src="image/sweater-coklat.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-maroon.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/hoodie-cream.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-hitam.jpg" alt="">
+                </div>
+                <a href="#" class="slider-btn" id="nextBtn"><i data-feather="chevron-right"></i></a>
+            </div>
+            <div class="konten-produk">
+                <h3 class="produk-tittle">Sweater Coklat</h3>
+                <p class="deskripsi-produk">deskripsi produk bla bla bla Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat omnis nisi alias temporibus, quos eos.</p>
+                <p class="produk-price">Rp 60.000</p><div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+<div class="detail-box" id="modal-kemeja-maroon">
+    <div class="detail-box-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="detail-content">
+            <div class="slider-container" >
+                <a href="#" class="slider-btn" id="prevBtn"><i data-feather="chevron-left"></i></a>
+                <div class="slide-img">
+                    <img src="image/kemeja-maroon.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-biru.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/hoodie-cream.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-hitam.jpg" alt="">
+                </div>
+                <a href="#" class="slider-btn" id="nextBtn"><i data-feather="chevron-right"></i></a>
+            </div>
+            <div class="konten-produk">
+                <h3 class="produk-tittle">Kemeja Maroon</h3>
+                <p class="deskripsi-produk">deskripsi produk bla bla bla Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat omnis nisi alias temporibus, quos eos.</p>
+                <p class="produk-price">Rp 50.000</p><div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+<div class="detail-box" id="modal-sweater-stripe">
+    <div class="detail-box-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="detail-content">
+            <div class="slider-container" >
+                <a href="#" class="slider-btn" id="prevBtn"><i data-feather="chevron-left"></i></a>
+                <div class="slide-img">
+                    <img src="image/sweater-stripe.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-maroon.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/hoodie-cream.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-hitam.jpg" alt="">
+                </div>
+                <a href="#" class="slider-btn" id="nextBtn"><i data-feather="chevron-right"></i></a>
+            </div>
+            <div class="konten-produk">
+                <h3 class="produk-tittle">Sweater Stripe</h3>
+                <p class="deskripsi-produk">deskripsi produk bla bla bla Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat omnis nisi alias temporibus, quos eos.</p>
+                <p class="produk-price">Rp 60.000</p><div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+<div class="detail-box" id="modal-sweater-pink">
+    <div class="detail-box-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="detail-content">
+            <div class="slider-container" >
+                <a href="#" class="slider-btn" id="prevBtn"><i data-feather="chevron-left"></i></a>
+                <div class="slide-img">
+                    <img src="image/sweater-pink.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-maroon.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/hoodie-cream.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-hitam.jpg" alt="">
+                </div>
+                <a href="#" class="slider-btn" id="nextBtn"><i data-feather="chevron-right"></i></a>
+            </div>
+            <div class="konten-produk">
+                <h3 class="produk-tittle">Sweater Pink</h3>
+                <p class="deskripsi-produk">deskripsi produk bla bla bla Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat omnis nisi alias temporibus, quos eos.</p>
+                <p class="produk-price">Rp 60.000</p><div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+<div class="detail-box" id="modal-hoodie-cream">
+    <div class="detail-box-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="detail-content">
+            <div class="slider-container" >
+                <a href="#" class="slider-btn" id="prevBtn"><i data-feather="chevron-left"></i></a>
+                <div class="slide-img">
+                    <img src="image/hoodie-cream.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-maroon.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/hoodie-cream.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-hitam.jpg" alt="">
+                </div>
+                <a href="#" class="slider-btn" id="nextBtn"><i data-feather="chevron-right"></i></a>
+            </div>
+            <div class="konten-produk">
+                <h3 class="produk-tittle">Hoodie Cream</h3>
+                <p class="deskripsi-produk">deskripsi produk bla bla bla Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat omnis nisi alias temporibus, quos eos.</p>
+                <p class="produk-price">Rp 70.000</p><div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+<div class="detail-box" id="modal-kemeja-flanel-biru">
+    <div class="detail-box-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="detail-content">
+            <div class="slider-container" >
+                <a href="#" class="slider-btn" id="prevBtn"><i data-feather="chevron-left"></i></a>
+                <div class="slide-img">
+                    <img src="image/kemeja-flanel-biru.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-maroon.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/hoodie-cream.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-hitam.jpg" alt="">
+                </div>
+                <a href="#" class="slider-btn" id="nextBtn"><i data-feather="chevron-right"></i></a>
+            </div>
+            <div class="konten-produk">
+                <h3 class="produk-tittle">Kemeja Flanel Biru</h3>
+                <p class="deskripsi-produk">deskripsi produk bla bla bla Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat omnis nisi alias temporibus, quos eos.</p>
+                <p class="produk-price">Rp 50.000</p><div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+<div class="detail-box" id="modal-kemeja-hitam">
+    <div class="detail-box-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="detail-content">
+            <div class="slider-container" >
+                <a href="#" class="slider-btn" id="prevBtn"><i data-feather="chevron-left"></i></a>
+                <div class="slide-img">
+                    <img src="image/kemeja-hitam.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-maroon.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/hoodie-cream.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-hitam.jpg" alt="">
+                </div>
+                <a href="#" class="slider-btn" id="nextBtn"><i data-feather="chevron-right"></i></a>
+            </div>
+            <div class="konten-produk">
+                <h3 class="produk-tittle">Kemeja Hitam</h3>
+                <p class="deskripsi-produk">deskripsi produk bla bla bla Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat omnis nisi alias temporibus, quos eos.</p>
+                <p class="produk-price">Rp 50.000</p><div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+<div class="detail-box" id="modal-kemeja-biru">
+    <div class="detail-box-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="detail-content">
+            <div class="slider-container" >
+                <a href="#" class="slider-btn" id="prevBtn"><i data-feather="chevron-left"></i></a>
+                <div class="slide-img">
+                    <img src="image/kemeja-biru.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-maroon.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/hoodie-cream.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-hitam.jpg" alt="">
+                </div>
+                <a href="#" class="slider-btn" id="nextBtn"><i data-feather="chevron-right"></i></a>
+            </div>
+            <div class="konten-produk">
+                <h3 class="produk-tittle">Kemeja Biru</h3>
+                <p class="deskripsi-produk">deskripsi produk bla bla bla Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat omnis nisi alias temporibus, quos eos.</p>
+                <p class="produk-price">Rp 50.000</p><div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+<div class="detail-box" id="modal-vest-coklat">
+    <div class="detail-box-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="detail-content">
+            <div class="slider-container" >
+                <a href="#" class="slider-btn" id="prevBtn"><i data-feather="chevron-left"></i></a>
+                <div class="slide-img">
+                    <img src="image/vest-coklat.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-maroon.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/hoodie-cream.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="image/kemeja-hitam.jpg" alt="">
+                </div>
+                <a href="#" class="slider-btn" id="nextBtn"><i data-feather="chevron-right"></i></a>
+            </div>
+            <div class="konten-produk">
+                <h3 class="produk-tittle">Vest Coklat</h3>
+                <p class="deskripsi-produk">deskripsi produk bla bla bla Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat omnis nisi alias temporibus, quos eos.</p>
+                <p class="produk-price">Rp 50.000</p>
+                <div class="produk-button">
+                    <button class="masukkan-keranjang">Masukkan keranjang</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+<!-- Modal Box Item Detail end -->
 
     <!-- Footer start -->
     <footer>
@@ -165,5 +615,6 @@
 
     <!-- my js script -->
     <script src="js/script.js"></script>
+    <!--<script src="js/modal_box.js"></script>-->
 </body>
 </html>
