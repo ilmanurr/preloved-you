@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preloved-You</title>
+    <link rel="icon" href="image/Preloved-logo-png.png">
+
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- css style -->
+    <link rel="stylesheet" href="css/style_checkout.css">
+</head>
+
+<body>
+    <div class="checkout">
+        <h2>CheckOut</h2>
+            <div class="row">
+                <div class="row-alamat-produk">
+                    <div class="alamat">
+                        <form action="">
+                            <p>Alamat Pengiriman</p>
+                            <input type="text" placeholder="Nama Penerima">
+                            <textarea name="alamat" id="alamat" cols="30" rows="10" placeholder="Masukkan Alamat Lengkap"></textarea>
+                        </form>
+                    </div>
+                    <hr>
+                    <div class="produk-dipilih">
+                        <div class="row-produk-dipilih">
+                            <!-- Ini adalah tempat produk-produk yang dipilih untuk checkout -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row-kurir-pembayaran">
+                    <div class="pilih-kota">
+                        <p>Pilih Kota Tujuan</p>
+                        <select name="kota" id="id">
+                            <option value="Surabaya">Surabaya</option>
+                            <option value="Sidoarjo">Sidoarjo</option>
+                            <option value="Gresik">Gresik</option>
+                            <option value="Lamongan">Lamongan</option>
+                            <option value="Mojokerto">Mojokerto</option>
+                            <option value="Malang">Malang</option>
+                            <option value="Batu">Batu</option>
+                            <option value="Pasuruan">Pasuruan</option>
+                            <option value="Jombang">Jombang</option>
+                            <option value="Kediri">Kediri</option>
+                            <option value="Nganjuk">Nganjuk</option>
+                            <option value="Madura">Madura</option>
+                            <option value="Blitar">Blitar</option>
+                            <option value="Bojonegoro">Bojonegoro</option>
+                            <option value="Tuban">Tuban</option>
+                            <option value="Ponorogo">Ponorogo</option>
+                            <option value="Trenggalek">Trenggalek</option>
+                            <option value="Tulungagung">Tulungagung</option>
+                            <option value="Solo">Solo</option>
+                            <option value="Klaten">Klaten</option>
+                            <option value="Semarang">Semarang</option>
+                            <option value="Purwakarta">Purwakarta</option>
+                            <option value="Jakarta">Jakarta</option>
+                            <option value="Banten">Banten</option>
+                            <option value="Bekasi">Bekasi</option>
+                            <option value="Bogor">Bogor</option>
+                            <option value="Depok">Depok</option>
+                        </select>
+                    </div>
+                    <div class="pilih-kurir">
+                        <p class="pilih-kurir">Pilih Jenis Pengiriman</p>
+                        <select name="kurir" id="kurir">
+                            <option value="Reguler">Reguler</option>
+                            <option value="Ekonomi">Hemat</span></option>
+                            <option value="Kargo">Kargo</span></option>
+                        </select>
+                    </div>
+                    <div class="pilih-pembayaran">
+                        <p>Pilih Pembayaran</p>
+                        <select name="pembayaran" id="pembayaran">
+                            <option value="COD">COD</option>
+                            <option value="BNI">Transfer BNI</option>
+                            <option value="Mandiri">Transfer Mandiri</option>
+                            <option value="BCA">Transfer BCA</option>
+                            <option value="BRI">Transfer BRI</option>
+                        </select>
+                    </div>
+                    <div class="ringkasan-belanja">
+                        <div class="row-belanja">
+                            <p>Total Harga (<span id="totalQuantity">0</span> Produk)</p>
+                            <p class="harga" id="totalHarga">Rp 70.000</p>
+                        </div>
+                        <div class="row-belanja">
+                            <p>Total Ongkos Kirim</p>
+                            <p class="harga" id="totalOngkosKirim">Rp 10.000</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="total-belanja">
+                        <p>Total Belanja</p>
+                        <p class="harga">Rp 80.000</p>
+                    </div>
+                    <div class="button-bayar">
+                        <a href="keranjang.html">Bayar</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!-- Footer start -->
+    <footer>
+        <div class="isi-footer">
+            <a href="index.html">Beranda</a>
+            <a href="produk-kami.html">Produk Kami</a>
+            <a href="keranjang.html">Pesananmu</a>
+            <a href="kontak-kami.html">Kontak Kami</a>
+            <p>Created by Preloved.you's team | &copy 2023</p>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- my script -->
+    <script src="js/script_checkout.js"></script>
+</body>
+
+</html>
