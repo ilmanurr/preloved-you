@@ -95,6 +95,15 @@ body {
     display: none;
 }
 
+#shopping-cart-button #icon-cart-span {
+    background-color: red;
+    padding: 1.5px 3px;
+    margin-top: 10px;
+    border-radius: 100%;
+    font-size: 0.9rem;
+    position: absolute;
+}
+
 /* Navbar style end */
 
 /* Navbar search form */
@@ -187,6 +196,116 @@ body {
 .navbar .login-form a:hover {
     color: var(--primary);
 }
+
+/* Shopping Cart start */
+.shopping-cart {
+    width: 405px;
+    background-color: #eae7e5;
+    color: #000000;
+    position: fixed;
+    top: 0;
+    right: -405px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: 70px 1fr 70px;
+    transition: .5s;
+}
+
+body.showCart .shopping-cart {
+    right: 0;
+}
+
+body.showCart .all-cart-list {
+    right: 0;
+    transform: translateX();
+}
+
+.shopping-cart h2 {
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.shopping-cart .all-cart-list {
+    height: 100vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+.shopping-cart .shopping-cart-button {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+    top: 0;
+    bottom: 0;
+    height: 4rem;
+}
+
+.shopping-cart .shopping-cart-button button {
+    background-color: var(--primary);
+    border: none;
+    font-family: Poppins;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.shopping-cart .shopping-cart-button button a {
+    color: #000000;
+}
+
+.shopping-cart .shopping-cart-button .close {
+    background-color: #787171;
+}
+
+.shopping-cart .items img {
+    width: 100%;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+.cart-list .items {
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 4px;
+    text-align: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.cart-list .jumlah-produk span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #000000;
+    color: var(--bg);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cart-list .jumlah-produk span:nth-child(2) {
+    background-color: transparent;
+    color: #000000;
+    cursor: auto;
+}
+
+.cart-list {
+    overflow: auto;
+}
+
+.cart-list .nama-produk {
+    max-width: 7rem;
+    margin-left: 2rem;
+}
+
+.cart-list:nth-child(even){
+    background-color: #e8e2dc;
+}
+
+.cart-list::-webkit-scrollbar{
+    width: 0;
+}
+/* Shopping Cart end */
 
 /* Hero style start */
 .hero {
@@ -338,31 +457,167 @@ body {
     text-align: center;
     margin: 1rem;
     padding: 1rem;
-    padding-bottom: 1rem;
+    max-width: 15rem;
+    max-height: 24rem;
+    border: 80%;
+}
+
+.home-content .row-produk-terbaru .produk-button,
+.product .row .list-produk .produk-button {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: 0.5rem;
+    min-height: 1rem;
+    margin-top: 0.8rem;
+}
+
+.home-content .row-produk-terbaru .produk-button .masukkan-keranjang,
+.home-content .row-produk-terbaru .produk-button .detail-produk,
+.product .row .list-produk .produk-button .masukkan-keranjang,
+.product .row .list-produk .produk-button .detail-produk {
+    flex: 1;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    background-color: var(--primary);
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    color: #000000;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    height: 2.5rem;
 }
 
 .home-content .row-produk-terbaru .produk-terbaru img {
     width: 8rem;
     height: 10rem;
-    border: 80%;
+
 }
 
-.home-content .row-produk-terbaru .produk-terbaru .produk-tittle,
-.home-content .row-produk-terbaru .produk-terbaru .produk-price {
-    margin: 1rem auto 0.5rem;
-}
-
-#pterbaru-content a {
-    margin-left: 7rem;
+.product .produk-lainnya {
     padding: 1rem 0.5rem;
     font-size: 1.1rem;
     color: #4d4646;
 }
 
-#pterbaru-content a:hover {
+.product .produk-lainnya:hover {
     color: var(--primary);
 }
 /* Produk terbaru beranda style end */
+
+/* Modal Box Item Detail start */
+.detail-box {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.detail-box-container {
+    position: relative;
+    background-color: #fefefe;
+    border: 1px solid var(--primary);
+    color: #000000;
+    margin: 15% auto;
+    padding: 1.2rem;
+    width: 80%;
+    height: 18rem;
+    animation: animateModal 0.5s;
+}
+
+@keyframes animateModal {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+.detail-box-container .close-icon {
+    position: absolute;
+    right: 1rem;
+}
+
+.detail-box-container .close-icon:hover, .slider-btn:hover {
+    color: var(--primary);
+}
+
+.detail-content {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.detail-content .deskripsi-produk {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    margin-top: 1rem;
+}
+
+.detail-content .produk-price {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.detail-content .konten-produk .masukkan-keranjang {
+    height: 3.5rem;
+    font-size: 0.8rem;
+}
+
+.detail-content .konten-produk .masukkan-keranjang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 10rem;
+    background-color: var(--primary);
+    color: #000000;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 0.6rem;
+    height: 3rem;
+}
+
+.detail-content .konten-produk .masukkan-keranjang:hover {
+    background-color: #876541;
+    color: var(--bg);
+}
+
+.slider-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 3rem;
+    width: 60%;
+}
+
+.slider-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.slider-container .slide-img {
+    justify-content: center;
+    width: 70%;
+    display: flex;
+}
+
+.slider-container .slide-img img {
+    max-width: 100%;
+    justify-content: center;
+}
+/* Modal Box Item Detail end */
 
 /* Review content beranda style start */
 .review {
@@ -448,11 +703,15 @@ footer .credit {
     padding: 7rem 7% 1.4rem;
 }
 
-#all-products h2, #new-products h2 {
+#all-products h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
+}
+
+#all-products .all-produk-tittle {
+    margin-top: 5rem;
 }
 
 #all-products h2 span, #new-products h2 span {
@@ -487,12 +746,12 @@ footer .credit {
 
 #row-all-product .list-produk .produk-tittle, #row-produk-terbaru .produk-terbaru .produk-tittle {
     font-size: 1.2rem;
-    margin: 1rem auto 0.5rem;
+    margin: 0.5rem auto;
 }
 
 #row-all-product .list-produk .produk-price, #row-produk-terbaru .produk-terbaru .produk-price {
     font-size: 1rem;
-    margin: 1rem auto 0.5rem;
+    margin: 0.5rem auto;
 }
 
 /* Product style end */
