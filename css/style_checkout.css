@@ -1,0 +1,246 @@
+:root {
+    --primary: #a98766;
+    --bg: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg);
+    color: #000000;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.checkout {
+    flex: 1;
+}
+
+.checkout h2 {
+    padding: 2rem 0 1rem 0;
+    margin-left: 5rem;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.row .row-alamat-produk {
+    width: 60%;
+    margin-left: 4rem;
+    padding: 1rem;
+}
+
+.row .row-kurir-pembayaran {
+    width: 40%;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    padding-left: 4rem;
+}
+
+.alamat {
+    margin-bottom: 1rem;
+}
+
+.alamat p {
+    font-weight: 550;
+}
+
+.alamat input {
+    height: 2rem;
+    border: 1px solid var(--primary);
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+.alamat textarea {
+    width: 100%;
+    height: 5rem;
+    border: 1px solid var(--primary);
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+.produk-dipilih {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid var(--primary);
+}
+
+.produk-dipilih .row-produk-dipilih {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    left: 0;
+    width: 100%;
+}
+
+.produk-checkout {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: left;
+    left: 0;
+}
+
+.produk-dipilih .gambar-produk img {
+    width: 7rem;
+    height: auto;
+    margin-right: 2rem;
+    margin-left: -2rem;
+}
+
+.produk-dipilih .nama-produk {
+    flex-grow: 1;
+    margin-right: 2.5rem;
+    margin-left: 2rem;
+    width: 12rem;
+}
+
+.produk-dipilih .harga-produk {
+    margin-left: 1rem;
+    width: 5rem;
+}
+
+.jumlah-produk {
+    width: 3rem;
+    margin-left: 2rem;
+    font-weight: 550;
+}
+
+.pilih-kota, .pilih-kurir, .ringkasan-belanja, .total-belanja {
+    display: absolute;
+    margin-bottom: 1rem;
+}
+
+.pilih-kurir p, .pilih-pembayaran p, .total-belanja p {
+    font-weight: 550;
+}
+
+.pilih-kota p {
+    font-weight: 550;
+    margin-bottom: 0.5rem;
+}
+
+.pilih-kurir select, .pilih-pembayaran select, .pilih-kota select {
+    border: 1px solid var(--primary);
+    height: 2.3rem;
+    padding-left: 1rem;
+    background-color: var(--primary);
+    border-radius: 0.7rem;
+    width: 19rem;
+    font-size: 1.05rem;
+    font-weight: 510;
+    color: var(--bg);
+}
+
+.pilih-kurir option, .pilih-pembayaran option, .pilih-kota option {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.pilih-pembayaran {
+    margin-bottom: 1rem;
+}
+
+.pilih-pembayaran p, .pilih-kurir p {
+    margin-bottom: 0.5rem;
+}
+
+.ringkasan-belanja {
+    border: 1px solid var(--primary);
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    width: 75%;
+}
+
+.ringkasan-belanja .row-belanja {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.row-belanja .harga {
+    margin-left: auto;
+}
+
+.harga #totalHarga, .harga #totalOngkosKirim {
+    margin-left: 1rem;
+}
+
+.total-belanja {
+    display: flex;
+    justify-content: space-between;
+    width: 73%;
+}
+
+.total-belanja .harga {
+    font-weight: 550;
+}
+
+.button-bayar {
+    height: 2.3rem;
+    border: 1px solid var(--primary);
+    background-color: var(--primary);
+    border-radius: 0.7rem;
+    width: 19rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-bayar a {
+    color: var(--bg);
+    background-color: var(--primary);
+    font-size: 1.05rem;
+}
+
+.button-bayar:hover {
+    transform: scale(1.1);
+}
+
+/* footer style start */
+footer .isi-footer {
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.isi-footer {
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.isi-footer p {
+    margin: 0;
+}
+
+.isi-footer a {
+    text-decoration: none;
+    color: var(--primary);
+    margin: 1rem;
+}
+
+.isi-footer a:hover {
+    color: #867a7a;
+}
